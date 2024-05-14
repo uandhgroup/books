@@ -37,7 +37,7 @@ const config = {
         gtag: {
           trackingID: ['UA-109059578-7', 'G-Y94RMTGW0M'],
           // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
+          anonymizeIP: false, // Should IPs be anonymized?
         },
       }),
     ],
@@ -48,10 +48,10 @@ const config = {
     ({
       algolia: {
         // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-        appId: 'OFOYRKZKKB',
+        appId: '6U4HGKGU11',
 
         // Public API key: it is safe to commit it
-        apiKey: 'f70587b4279fabdac7fd30732de4e5de',
+        apiKey: '59ac6e87811a06cd6f1de04ce4825117',
 
         indexName: 'docs-daily',
 
