@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'daily.dev',
+  title: 'tech.books',
   tagline: 'Where developers grow together',
-  url: 'https://docs.daily.dev/',
+  url: 'https://books.hhf.co.in/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
