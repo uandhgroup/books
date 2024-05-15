@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'dailydotdev', // Usually your GitHub org/user name.
+  organizationName: 'booksdothhf', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   presets: [
@@ -56,11 +56,14 @@ const config = {
         indexName: 'docs-daily',
 
         // Optional: see doc section below
+        contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
 
         // Optional: Algolia search parameters
-
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
         //... other Algolia params
       },
       colorMode: {
@@ -98,7 +101,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Product',
+            title: 'SOFTWARE Books',
             items: [
               {
                 label: 'Home',
@@ -123,7 +126,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'HARDWARE Books',
             items: [
               {
                 label: 'Open source',
@@ -144,7 +147,7 @@ const config = {
             ],
           },
           {
-            title: 'Company',
+            title: 'On-Premise Hosting',
             items: [
               {
                 label: 'Blog',
@@ -173,33 +176,33 @@ const config = {
             items: [
               {
                 label: 'Twitter/X',
-                to: 'https://twitter.com/dailydotdev',
+                to: 'https://twitter.com/hhf_tech',
               },
               {
                 label: 'GitHub',
-                to: 'https://github.com/dailydotdev/daily',
+                to: 'https://github.com/hhf_tech',
               },
               {
                 label: 'YouTube',
                 to: 'https://www.youtube.com/channel/UCXUjtTfQWJa0G9K_SqRm3jQ',
               },
               {
-                label: 'Instagram',
+                label: 'Discord',
                 to: 'https://www.instagram.com/dailydotdev/',
               },
               {
-                label: 'TikTok',
+                label: 'Donate',
                 to: 'https://www.tiktok.com/@dailydotdev',
               },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} All rights reserved.`,
+        copyright: `© ${new Date().getFullYear()} HHF Books. All rights not-reserved :). HHF Books is maintained by HHF-TechTips.`,
       },
       announcementBar: {
         id: 'support_us',
         content:
-          'Try daily.dev <a target="_blank" rel="noopener noreferrer" href="https://daily.dev"> now!</a>',
+          'Try HHF Tech Tips <a target="_blank" rel="noopener noreferrer" href="https://techtips.hhf.co.in"> now!</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
