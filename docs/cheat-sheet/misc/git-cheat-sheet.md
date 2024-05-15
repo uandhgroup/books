@@ -776,12 +776,12 @@ this is produced:
 Running:
 
 ```bash
- git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+ git log --all --graph --pretty=format:'$Cred$h$Creset -$C(auto)$d$Creset $s $Cgreen($cr) $C(bold blue)<$an>$Creset' --abbrev-commit --date=relative
 ```
 
 produces:
 
-![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](http://i.imgur.com/58eOtkW.png)
+![git log --all --graph --pretty=format:'$Cred$h$Creset -$C(auto)$d$Creset $s $Cgreen($cr) $C(bold blue)<$an>$Creset' --abbrev-commit --date=relative](http://i.imgur.com/58eOtkW.png)
 
 Credit to [Palesz](http://stackoverflow.com/users/88355/palesz)
 
@@ -922,7 +922,7 @@ Some useful aliases include:
 | `git branches` | `git branch -a` | `git config --global alias.branches 'branch -a'` |
 | `git cleanup` | `git branch --merged \| grep -v '*' \| xargs git branch -d` | `git config --global alias.cleanup "!git branch --merged \| grep -v '*' \| xargs git branch -d"` |
 | `git remotes` | `git remote -v` | `git config --global alias.remotes 'remote -v'` |
-| `git lg` | `git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --` | `git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"` |
+| `git lg` | `git log --color --graph --pretty=format:'$Cred$h$Creset -$C(yellow)$d$Creset $s $Cgreen($cr) $C(bold blue)<$an>$Creset' --abbrev-commit --` | `git config --global alias.lg "log --color --graph --pretty=format:'$Cred$h$Creset -$C(yellow)$d$Creset $s $Cgreen($cr) $C(bold blue)<$an>$Creset' --abbrev-commit --"` |
 
 *Some Aliases are taken from [@mathiasbynens](https://github.com/mathiasbynens) dotfiles: https://github.com/mathiasbynens/dotfiles/blob/master/.gitconfig*
 
