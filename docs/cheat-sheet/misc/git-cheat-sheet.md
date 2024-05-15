@@ -41,7 +41,7 @@ https://github.com/rails/rails/commits/master?author=dhh
 When cloning a repository the `.git` can be left off the end.
 
 ```bash
-$ git clone https://github.com/tiimgreen/github-cheat-sheet
+ git clone https://github.com/tiimgreen/github-cheat-sheet
 ```
 
 [*Read more about the Git `clone` command.*](http://git-scm.com/docs/git-clone)
@@ -123,7 +123,7 @@ Add `.pibb` to the end of any Gist URL ([like this](https://gist.github.com/tiim
 Gists can be treated as a repository so they can be cloned like any other:
 
 ```bash
-$ git clone https://gist.github.com/tiimgreen/10545817
+ git clone https://gist.github.com/tiimgreen/10545817
 ```
 
 ![Gists](http://i.imgur.com/BcFzabp.png)
@@ -131,8 +131,8 @@ $ git clone https://gist.github.com/tiimgreen/10545817
 This means you also can modify and push updates to Gists:
 
 ```bash
-$ git commit
-$ git push
+ git commit
+ git push
 Username for 'https://gist.github.com':
 Password for 'https://tiimgreen@gist.github.com':
 ```
@@ -148,11 +148,11 @@ However, Gists do not support directories. All files need to be added to the rep
 You can also use it via pure HTTP using Curl:
 
 ```bash
-$ curl -i http://git.io -F "url=https://github.com/..."
+ curl -i http://git.io -F "url=https://github.com/..."
 HTTP/1.1 201 Created
 Location: http://git.io/abc123
 
-$ curl -i http://git.io/abc123
+ curl -i http://git.io/abc123
 HTTP/1.1 302 Found
 Location: https://github.com/...
 ```
@@ -189,7 +189,7 @@ https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L
 If a particular commit fixes an issue, any of the keywords `fix/fixes/fixed`, `close/closes/closed` or `resolve/resolves/resolved`, followed by the issue number, will close the issue once it is committed to the repository's default branch.
 
 ```bash
-$ git commit -m "Fix screwup, fixes #12"
+ git commit -m "Fix screwup, fixes #12"
 ```
 
 This closes the issue and references the closing commit.
@@ -520,7 +520,7 @@ GitHub can display several common image formats, including PNG, JPG, GIF, and PS
 This allows you to do things like:
 
 ```bash
-$ hub clone tiimgreen/toc
+ hub clone tiimgreen/toc
 ```
 
 [*Check out some more cool commands Hub has to offer.*](https://github.com/github/hub#commands)
@@ -626,23 +626,23 @@ Changing to a template repository will give a new URL endpoint which can be shar
 When you delete a lot of files using `/bin/rm` you can use the following command to remove them from the working tree and from the index, eliminating the need to remove each one individually:
 
 ```bash
-$ git rm $(git ls-files -d)
+ git rm (git ls-files -d)
 ```
 
 For example:
 
 ```bash
-$ git status
+ git status
 On branch master
 Changes not staged for commit:
 	deleted:    a
 	deleted:    c
 
-$ git rm $(git ls-files -d)
+ git rm (git ls-files -d)
 rm 'a'
 rm 'c'
 
-$ git status
+ git status
 On branch master
 Changes to be committed:
 	deleted:    a
@@ -653,13 +653,13 @@ Changes to be committed:
 To move to the previous branch in Git:
 
 ```bash
-$ git checkout -
+ git checkout -
 # Switched to branch 'master'
 
-$ git checkout -
+ git checkout -
 # Switched to branch 'next'
 
-$ git checkout -
+ git checkout -
 # Switched to branch 'master'
 ```
 
@@ -675,7 +675,7 @@ Git Stripspace:
 
 A file must be passed when calling the command, e.g.:
 ```bash
-$ git stripspace < README.md
+ git stripspace < README.md
 ```
 
 [*Read more about the Git `stripspace` command.*](http://git-scm.com/docs/git-stripspace)
@@ -687,13 +687,13 @@ Pull Requests are special branches on the GitHub repository which can be retriev
 Retrieve a specific Pull Request and store it temporarily in `FETCH_HEAD` for quickly `diff`-ing or `merge`-ing:
 
 ```bash
-$ git fetch origin refs/pull/[PR-Number]/head
+ git fetch origin refs/pull/[PR-Number]/head
 ```
 
 Acquire all Pull Request branches as local remote branches by refspec:
 
 ```bash
-$ git fetch origin '+refs/pull/*/head:refs/remotes/origin/pr/*'
+ git fetch origin '+refs/pull/*/head:refs/remotes/origin/pr/*'
 ```
 
 Or setup the remote to fetch Pull Requests automatically by adding these corresponding lines in your repository's `.git/config`:
@@ -714,7 +714,7 @@ Or setup the remote to fetch Pull Requests automatically by adding these corresp
 For Fork-based Pull Request contributions, it's useful to `checkout` a remote branch representing the Pull Request and create a local branch from it:
 
 ```bash
-$ git checkout pr/42 pr-42
+ git checkout pr/42 pr-42
 ```
 
 Or should you work on more repositories, you can globally configure fetching pull requests in the global git config instead.
@@ -739,7 +739,7 @@ git checkout pr/42
 Commits can be pushed with no code changes by adding `--allow-empty`:
 
 ```bash
-$ git commit -m "Big-ass commit" --allow-empty
+ git commit -m "Big-ass commit" --allow-empty
 ```
 
 Some use-cases for this (that make sense), include:
@@ -753,7 +753,7 @@ Some use-cases for this (that make sense), include:
 Running:
 
 ```bash
-$ git status
+ git status
 ```
 
 produces:
@@ -763,7 +763,7 @@ produces:
 By adding `-sb`:
 
 ```bash
-$ git status -sb
+ git status -sb
 ```
 
 this is produced:
@@ -776,7 +776,7 @@ this is produced:
 Running:
 
 ```bash
-$ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
 
 produces:
@@ -793,13 +793,13 @@ Credit to [Palesz](http://stackoverflow.com/users/88355/palesz)
 A Git query allows you to search all your previous commit messages and find the most recent one matching the query.
 
 ```bash
-$ git show :/query
+ git show :/query
 ```
 
 where `query` (case-sensitive) is the term you want to search, this then finds the last one and gives details on the lines that were changed.
 
 ```bash
-$ git show :/typo
+ git show :/typo
 ```
 ![git show :/query](http://i.imgur.com/icaGiNt.png)
 
@@ -812,7 +812,7 @@ Git Grep will return a list of lines matching a pattern.
 
 Running:
 ```bash
-$ git grep aliases
+ git grep aliases
 ```
 will show all the files containing the string *aliases*.
 
@@ -827,7 +827,7 @@ You can also use multiple flags for more advanced search. For example:
 
 Use it like this:
 ```bash
- $ git grep -e pattern --and -e anotherpattern
+  git grep -e pattern --and -e anotherpattern
 ```
 
 [*Read more about the Git `grep` command.*](http://git-scm.com/docs/git-grep)
@@ -836,7 +836,7 @@ Use it like this:
 Running:
 
 ```bash
-$ git branch --merged
+ git branch --merged
 ```
 
 will give you a list of all branches that have been merged into your current branch.
@@ -844,7 +844,7 @@ will give you a list of all branches that have been merged into your current bra
 Conversely:
 
 ```bash
-$ git branch --no-merged
+ git branch --no-merged
 ```
 
 will give you a list of branches that have not been merged into your current branch.
@@ -854,8 +854,8 @@ will give you a list of branches that have not been merged into your current bra
 ### Fixup and Autosquash
 If there is something wrong with a previous commit (can be one or more from HEAD), for example `abcde`, run the following command after you've amended the problem:
 ```bash
-$ git commit --fixup=abcde
-$ git rebase abcde^ --autosquash -i
+ git commit --fixup=abcde
+ git rebase abcde^ --autosquash -i
 ```
 [*Read more about the Git `commit` command.*](http://git-scm.com/docs/git-commit)
 [*Read more about the Git `rebase` command.*](http://git-scm.com/docs/git-rebase)
@@ -864,7 +864,7 @@ $ git rebase abcde^ --autosquash -i
 Use the Git `instaweb` command to instantly browse your working repository in `gitweb`. This command is a simple script to set up `gitweb` and a web server for browsing the local repository.
 
 ```bash
-$ git instaweb
+ git instaweb
 ```
 
 opens:
@@ -895,19 +895,19 @@ To add an alias, either navigate to `~/.gitconfig` and fill it out in the follow
 ...or type in the command-line:
 
 ```bash
-$ git config --global alias.new_alias git_function
+ git config --global alias.new_alias git_function
 ```
 
 For example:
 
 ```bash
-$ git config --global alias.cm commit
+ git config --global alias.cm commit
 ```
 
 For an alias with multiple functions use quotes:
 
 ```bash
-$ git config --global alias.ac 'add -A . && commit'
+ git config --global alias.ac 'add -A . && commit'
 ```
 
 Some useful aliases include:
@@ -932,7 +932,7 @@ Git gives suggestions for misspelled commands and if auto-correct is enabled the
 For example, if you type `git comit` you will get this:
 
 ```bash
-$ git comit -m "Message"
+ git comit -m "Message"
 # git: 'comit' is not a git command. See 'git --help'.
 
 # Did you mean this?
@@ -942,13 +942,13 @@ $ git comit -m "Message"
 Auto-correct can be enabled like this (with a 1.5 second delay):
 
 ```bash
-$ git config --global help.autocorrect 15
+ git config --global help.autocorrect 15
 ```
 
 So now the command `git comit` will be auto-corrected to `git commit` like this:
 
 ```bash
-$ git comit -m "Message"
+ git comit -m "Message"
 # WARNING: You called a Git command named 'comit', which does not exist.
 # Continuing under the assumption that you meant 'commit'
 # in 1.5 seconds automatically...
@@ -960,7 +960,7 @@ The delay before git will rerun the command is so the user has time to abort.
 To add more color to your Git output:
 
 ```bash
-$ git config --global color.ui 1
+ git config --global color.ui 1
 ```
 
 [*Read more about the Git `config` command.*](http://git-scm.com/docs/git-config)
