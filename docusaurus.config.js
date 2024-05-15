@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'tech.books',
-  tagline: 'Where developers grow together',
+  title: 'books.hhf',
+  tagline: 'Tech for everyone',
   url: 'https://books.hhf.co.in/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'booksdothhf', // Usually your GitHub org/user name.
+  organizationName: 'dailydotdev', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   presets: [
@@ -37,7 +37,7 @@ const config = {
         gtag: {
           trackingID: ['UA-109059578-7', 'G-Y94RMTGW0M'],
           // Optional fields.
-          anonymizeIP: false, // Should IPs be anonymized?
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       }),
     ],
@@ -56,14 +56,11 @@ const config = {
         indexName: 'docs-daily',
 
         // Optional: see doc section below
-        contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
 
         // Optional: Algolia search parameters
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
+
         //... other Algolia params
       },
       colorMode: {
@@ -74,19 +71,25 @@ const config = {
       navbar: {
         // title: 'My Site',
         logo: {
-          alt: 'daily.dev Logo',
+          alt: 'books.hhf Logo',
           src: 'img/logo.png',
         },
         items: [
           {
-            label: 'Docs',
+            label: 'Books',
             type: 'doc',
             docId: 'intro',
             position: 'left',
           },
 
           {
-            label: 'Changelog',
+            label: 'Blog',
+            href: 'https://app.daily.dev/sources/daily_updates',
+            position: 'left',
+          },
+
+          {
+            label: 'My Fav',
             href: 'https://app.daily.dev/sources/daily_updates',
             position: 'left',
           },
@@ -101,7 +104,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'SOFTWARE Books',
+            title: 'Product',
             items: [
               {
                 label: 'Home',
@@ -126,7 +129,7 @@ const config = {
             ],
           },
           {
-            title: 'HARDWARE Books',
+            title: 'Community',
             items: [
               {
                 label: 'Open source',
@@ -147,7 +150,7 @@ const config = {
             ],
           },
           {
-            title: 'On-Premise Hosting',
+            title: 'Company',
             items: [
               {
                 label: 'Blog',
@@ -176,33 +179,33 @@ const config = {
             items: [
               {
                 label: 'Twitter/X',
-                to: 'https://twitter.com/hhf_tech',
+                to: 'https://twitter.com/dailydotdev',
               },
               {
                 label: 'GitHub',
-                to: 'https://github.com/hhf_tech',
+                to: 'https://github.com/dailydotdev/daily',
               },
               {
                 label: 'YouTube',
                 to: 'https://www.youtube.com/channel/UCXUjtTfQWJa0G9K_SqRm3jQ',
               },
               {
-                label: 'Discord',
+                label: 'Instagram',
                 to: 'https://www.instagram.com/dailydotdev/',
               },
               {
-                label: 'Donate',
+                label: 'TikTok',
                 to: 'https://www.tiktok.com/@dailydotdev',
               },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} HHF Books. All rights not-reserved :). HHF Books is maintained by HHF-TechTips.`,
+        copyright: `© ${new Date().getFullYear()} All rights not-reserved :). Mainted by HHF Tech-Tips team.`,
       },
       announcementBar: {
         id: 'support_us',
         content:
-          'Try HHF Tech Tips <a target="_blank" rel="noopener noreferrer" href="https://techtips.hhf.co.in"> now!</a>',
+          'Try HHF Tech-Tips Blog <a target="_blank" rel="noopener noreferrer" href="https://techtips.hhf.co.in"> now!</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
