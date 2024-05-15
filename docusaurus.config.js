@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'books.hhf',
-  tagline: 'Tech for everyone',
-  url: 'https://books.hhf.co.in/',
+  title: 'daily.dev',
+  tagline: 'Where developers grow together',
+  url: 'https://docs.daily.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -48,10 +48,10 @@ const config = {
     ({
       algolia: {
         // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-        appId: '6U4HGKGU11',
+        appId: 'OFOYRKZKKB',
 
         // Public API key: it is safe to commit it
-        apiKey: '59ac6e87811a06cd6f1de04ce4825117',
+        apiKey: 'f70587b4279fabdac7fd30732de4e5de',
 
         indexName: 'docs-daily',
 
@@ -71,25 +71,19 @@ const config = {
       navbar: {
         // title: 'My Site',
         logo: {
-          alt: 'books.hhf Logo',
+          alt: 'daily.dev Logo',
           src: 'img/logo.png',
         },
         items: [
           {
-            label: 'Books',
+            label: 'Docs',
             type: 'doc',
             docId: 'intro',
             position: 'left',
           },
 
           {
-            label: 'Blog',
-            href: 'https://app.daily.dev/sources/daily_updates',
-            position: 'left',
-          },
-
-          {
-            label: 'My Fav',
+            label: 'Changelog',
             href: 'https://app.daily.dev/sources/daily_updates',
             position: 'left',
           },
@@ -200,12 +194,12 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} All rights not-reserved :). Mainted by HHF Tech-Tips team.`,
+        copyright: `© ${new Date().getFullYear()} All rights reserved.`,
       },
       announcementBar: {
         id: 'support_us',
         content:
-          'Try HHF Tech-Tips Blog <a target="_blank" rel="noopener noreferrer" href="https://techtips.hhf.co.in"> now!</a>',
+          'Try daily.dev <a target="_blank" rel="noopener noreferrer" href="https://daily.dev"> now!</a>',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,

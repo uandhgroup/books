@@ -13,8 +13,7 @@ function HomepageHeader() {
     
     <header className={clsx(styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">HHF BOOKS</h1>
-        <h2 className="hero__title2">A place to keep all books for the complete development of ASIC/FPGA hardware or a software app/service</h2>
+        <h1 className="hero__title">daily.dev docs</h1>
       </div>
     </header>
   );
