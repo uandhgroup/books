@@ -493,7 +493,7 @@ html[data-theme='light'] .menu__link:before {
 }
 /**getting started**/
 .theme-doc-sidebar-menu li:nth-child(2) .menu__link:before {
-  background: url('../img/menu/getting-started.svg') 50% / 1.25rem 1rem;
+  background: url('../img/menu/regular/atom.svg') 50% / 1.25rem 1rem;
   filter: none;
 }
 
