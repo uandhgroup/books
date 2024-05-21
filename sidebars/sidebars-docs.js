@@ -89,6 +89,11 @@ module.exports = {
           label: '👨 ESP',
           href: '/esp/About-esp',
         },
+        {
+          type: 'link',
+          label: '👨 NEW',
+          href: '/esp/About-esp',
+        },
       ],
     },
   ],
