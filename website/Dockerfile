@@ -12,8 +12,9 @@ WORKDIR /app
 # Bundle app source
 COPY . .
 
-RUN yarn
 
 RUN yarn build
 
-CMD ["yarn", "run", "serve", "-p", "8080", "--host", "0.0.0.0"]
+EXPOSE 3000 
+
+CMD ["yarn", "serve"]
