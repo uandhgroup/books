@@ -11,7 +11,7 @@ RUN apk add --update git \
     yarn
 
 #WORKDIR /app
-WORKDIR /website
+WORKDIR /app
 
 # Bundle app source
 COPY . .
