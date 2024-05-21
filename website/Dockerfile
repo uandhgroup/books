@@ -7,7 +7,7 @@ ENV release_mode="staging"
 ENV BUILD_VERSION="2.0"
 
 #WORKDIR /app
-WORKDIR /app
+WORKDIR /website
 
 # Bundle app source
 COPY . .
