@@ -6,10 +6,6 @@ ENV release_mode="staging"
 
 ENV BUILD_VERSION="2.0"
 
-RUN apk add --update git \
-    bash \
-    yarn
-
 #WORKDIR /app
 WORKDIR /app
 
