@@ -91,8 +91,8 @@ module.exports = {
         },
         {
           type: 'link',
-          label: '👨 NEW',
-          href: '/esp/About-esp',
+          label: '👨 ProxmoxVE Helper-Scripts',
+          href: '/proxmox-ve-helper-scripts/proxmox-ve-intro',
         },
       ],
     },
