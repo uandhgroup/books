@@ -222,7 +222,7 @@ module.exports = {
         },
       ],
     },
-    hideableSidebar: true,
+    // hideableSidebar: true,
     prism: {
       additionalLanguages: [
         'dart',
