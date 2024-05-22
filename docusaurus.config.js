@@ -172,6 +172,11 @@ module.exports = {
               to: '/esp/About-esp',
               activeBasePath: '/esp',
             },
+            {
+              label: 'ESP',
+              to: '/proxmox-ve-helper-scripts/proxmox-ve-intro',
+              activeBasePath: '/proxmox-ve-helper-scripts',
+            },
           ],
         },
         {
@@ -422,6 +427,16 @@ module.exports = {
       path: 'docs/esp',
       routeBasePath: 'esp',
       id: 'esp',
+      sidebarPath: require.resolve('./sidebars/autogen.js'),
+      ...pageOptions,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      path: 'docs/proxmox-ve-helper-scripts',
+      routeBasePath: 'proxmox-ve-helper-scripts',
+      id: 'proxmox-ve-helper-scripts',
       sidebarPath: require.resolve('./sidebars/autogen.js'),
       ...pageOptions,
     },
