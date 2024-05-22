@@ -42,7 +42,7 @@ module.exports = {
     clarity: {
       ID: "9hfzg8mbot",
     },
-    metadatas: [
+    metadata: [
       {
           name: 'og:image',
           content: 'https://meta-image.vercel.app/Digital%20Support%20Services%20Notes!.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fnotes.nayanpatel.net%2Fsitelogo.svg&widths=250&heights=250'
