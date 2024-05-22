@@ -197,7 +197,7 @@ module.exports = {
         },
         {
           to: '/feature-requests',
-          label: 'Feature Request →',
+          label: 'Tutorial Request →',
           position: 'left',
           className: 'feature-req',
         },

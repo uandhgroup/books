@@ -48,7 +48,7 @@ function Layout(props) {
       }
     })(window, document, 'canny-jssdk', 'script');
     Canny('initChangelog', {
-      appID: '61deface8760544bd62681cd',
+      appID: '664daef7d21b626a8787050d',
       position: 'bottom',
       align: 'left',
     });

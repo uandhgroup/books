@@ -6,8 +6,8 @@ export default function Homepage() {
   return (
     <>
       <Head>
-        <meta title="Digital Support Services Notes" />
-        <meta property="og:title" content="Digital Support Services Notes" />
+        <meta title="HHF Digital Support Services Books" />
+        <meta property="og:title" content="HHF Digital Support Services Books" />
         <meta
           property="og:description"
           content="An awesome textbook alternative, that you can contribute to! 🚀"
@@ -16,7 +16,7 @@ export default function Homepage() {
           property="description"
           content="An awesome textbook alternative, that you can contribute to! 🚀"
         />
-        <link rel="canonical" href="https://notes.nayanpatel/net" />
+        <link rel="canonical" href="https://books." />
       </Head>
       <Redirect to="/docs/home/introduction" />
     </>

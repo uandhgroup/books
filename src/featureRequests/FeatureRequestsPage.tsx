@@ -12,7 +12,7 @@ import cannyScript from './cannyScript';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const BOARD_TOKEN = 'bfa0a307-6361-68f3-9b03-32b0a754a950';
+const BOARD_TOKEN = 'b054daa0-3cf7-850e-df0f-fd6ecf8fd655';
 
 function FeatureRequests() {
   useEffect(() => {
@@ -26,8 +26,8 @@ function FeatureRequests() {
 
   return (
     <Layout
-      title="Feedback"
-      description="Digital Support Services Notes Feature Requests page"
+      title="Tutorial or Setup Request"
+      description="HHF Digital Support Services Books Tutorial or Setup Requests page"
     >
       <main
         className={clsx('container', 'margin-vert--lg', styles.main)}
