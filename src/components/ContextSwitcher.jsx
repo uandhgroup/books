@@ -112,6 +112,11 @@ const CONTEXTS = [
     name: 'ESP',
     icon: FcManager,
   },
+  {
+    id: 'proxmox-ve-helper-scripts',
+    name: 'Proxmox VE Helper-Scripts',
+    icon: FcManager,
+  },
 ];
 
 const getContext = (id) => CONTEXTS.find((context) => context.id === id);
