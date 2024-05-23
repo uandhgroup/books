@@ -4,7 +4,7 @@ title: Intro
 sidebar_label: Intro
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eigthshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/blocks/)
+[![docs-source](https://img.shields.io/badge/source-eigthshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/blocks/)
 
 Before we dive into blocks and see how everything is set, we should describe this setup's mindset.
 If you've managed to set up your project by this point with the [WP-CLI](wp-cli) command `setup_theme`, you might have a few questions. We will try to answer all those questions here.
@@ -108,7 +108,7 @@ Our recommendation is not to burden yourself with components from the beginning.
 
 ### Will this setup work with full site editing?
 
-Yes, it will. We are constantly upgrading this documentation and our code to say that it will work with full site editing. This boilerplate was made for the uandhgroup/Eightshift WordPress team, so we are constantly using it in our projects.
+Yes, it will. We are constantly upgrading this documentation and our code to say that it will work with full site editing. This boilerplate was made for the hhftechtips/Eightshift WordPress team, so we are constantly using it in our projects.
 
 ### Can I use core blocks with your setup?
 
@@ -183,7 +183,7 @@ public function getCustomCategory(array $categories, \WP_Post $post): array
 
 ### What if you don't yet support something from the native setup? What can I do?
 
-As we described in [this chapter](blocks), if we don't support something natively from the core or you can't find it in this documentation, you can always use it in the normal native way from the [WordPress documentation](https://developer.wordpress.org/block-editor/tutorials/block-tutorial/). Also, if you think we are missing something, please open a [pull request](https://github.com/uandhgroup/eightshift-frontend-libs/pulls) or an [issue](https://github.com/uandhgroup/eightshift-frontend-libs/issues) on our GitHub repository.
+As we described in [this chapter](blocks), if we don't support something natively from the core or you can't find it in this documentation, you can always use it in the normal native way from the [WordPress documentation](https://developer.wordpress.org/block-editor/tutorials/block-tutorial/). Also, if you think we are missing something, please open a [pull request](https://github.com/hhftechtips/eightshift-frontend-libs/pulls) or an [issue](https://github.com/hhftechtips/eightshift-frontend-libs/issues) on our GitHub repository.
 
 ### Why is my blocks folder called `custom` and not `blocks`, for example?
 

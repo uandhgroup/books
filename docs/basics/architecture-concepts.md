@@ -5,7 +5,7 @@ title: Architecture concepts
 
 ## Project structure
 
-[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-libs)
+[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-libs)
 
 Eightshift Development Kit follows a strict project structure to support autoloading, dependency injection and `wp boilerplate` commands, as well as conventions to increase codebase understanding between developers. As an added benefit, following this structure and conventions makes your codebase more consistent and organized.
 
@@ -23,7 +23,7 @@ Our use of OOP allows you to extend, modify or even replace Eightshift Developme
 
 One of the most important interfaces in Eightshift Libs is the `ServiceInterface`. Classes that implement it are called service classes. This isn't a common pattern in PHP OOP. In Eightshift Development Kit, a service class represents a part of the project's functionality and has a `register` method that sets up the action and filter hooks for the service. If you need to add an action or a filter, you should do that in a service class. All your service classes are automatically loaded and can have dependencies injected using dependency injection.
 
-To ensure there are no naming collisions caused by Composer dependencies, we use the [Imposter Composer plugin](https://github.com/uandhgroup/imposter-plugin) to contain them in the `{ProjectName}Vendor` namespace. This comes with a few caveats which you should be aware of, and about which you can read more in the [namespaces chapter](namespaces).
+To ensure there are no naming collisions caused by Composer dependencies, we use the [Imposter Composer plugin](https://github.com/hhftechtips/imposter-plugin) to contain them in the `{ProjectName}Vendor` namespace. This comes with a few caveats which you should be aware of, and about which you can read more in the [namespaces chapter](namespaces).
 
 Read more about [namespaces and Imposter](namespaces), [extending classes and service classes](extending-classes), and [dependency injection and autowiring](autowiring).
 

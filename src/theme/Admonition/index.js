@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdmonitionCard } from '@uandhgroup/docusaurus-theme';
+import { AdmonitionCard } from '@hhftechtips/docusaurus-theme';
 
 export default function Admonition(props) {
 	return (

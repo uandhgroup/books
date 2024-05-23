@@ -10,7 +10,7 @@ export default function Showcase() {
 
 	return (
 		<Layout
-			title='uandhgroup showcase'
+			title='hhftechtips showcase'
 			description={siteConfig.tagline}
 			keywords={siteConfig.customFields.keywords}
 			metaImage={useBaseUrl(`img/${siteConfig.customFields.image}`)}

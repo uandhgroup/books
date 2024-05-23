@@ -4,7 +4,7 @@ title: JavaScript
 sidebar_label: JavaScript
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eigthshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/blocks/)
+[![docs-source](https://img.shields.io/badge/source-eigthshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/blocks/)
 
 ## camelize
 
@@ -367,8 +367,8 @@ const manifestGlobal = {
 		},
 		"colors": [
 			{
-				"name": "uandhgroup",
-				"slug": "uandhgroup",
+				"name": "hhftechtips",
+				"slug": "hhftechtips",
 				"color": "#D8262C"
 			},
 			{
@@ -410,7 +410,7 @@ outputCssVariablesGlobal(globalSettings);
 		--global-section-in-spacing-min: 0;
 		--global-section-in-spacing-max: 300;
 		--global-section-in-spacing-step: 10;
-		--global-colors-uandhgroup: #D8262C;
+		--global-colors-hhftechtips: #D8262C;
 		--global-colors-black: #111111;
 		--global-colors-white: #FFFFFF;
 	}

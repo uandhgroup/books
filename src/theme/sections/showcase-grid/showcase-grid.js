@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { ShowcaseCard, CtaImageButton } from '@uandhgroup/docusaurus-theme';
+import { ShowcaseCard, CtaImageButton } from '@hhftechtips/docusaurus-theme';
 import { EsOpenSource } from '../os-projects';
 
 const shuffleArray = (array) => array.map(value => ({ value, sort: Math.random() }))
@@ -12,11 +12,11 @@ export default function ShowcaseGrid(props) {
 		privateType,
 	} = props;
 
-	const headingTitle = privateType ? 'uandhgroup showcase' : 'Showcase';
-	const headingSubtitle = privateType ? "See all the awesome websites built by uandhgroup's WordPress team." : 'See the awesome websites people are building with Eightshift Boilerplate.';
+	const headingTitle = privateType ? 'hhftechtips showcase' : 'Showcase';
+	const headingSubtitle = privateType ? "See all the awesome websites built by hhftechtips's WordPress team." : 'See the awesome websites people are building with Eightshift Boilerplate.';
 	const ctaTitle = privateType ? "Let's get in touch" : (<span>Want to add your <br /> project to the list?</span>);
 	const ctaSubtitle = privateType ? 'Contact us' : 'Open an issue on GitHub';
-	const ctaUrl = privateType ? 'https://uandhgroup.com/contact/' : 'https://github.com/uandhgroup/eightshift-docs/issues';
+	const ctaUrl = privateType ? 'https://hhftechtips.com/contact/' : 'https://github.com/hhftechtips/eightshift-docs/issues';
 
 	const privateData = [
 		{
@@ -71,16 +71,16 @@ export default function ShowcaseGrid(props) {
 
 	const publicData = [
 		{
-			image: useBaseUrl('img/showcase/uandhgroup-learn.webp'),
-			label: 'uandhgroup Learn',
-			desc: 'Courses that will make your onboarding and work at uandhgroup as easy as possible.',
-			link: 'https://learn.uandhgroup.com/',
+			image: useBaseUrl('img/showcase/hhftechtips-learn.webp'),
+			label: 'hhftechtips Learn',
+			desc: 'Courses that will make your onboarding and work at hhftechtips as easy as possible.',
+			link: 'https://learn.hhftechtips.com/',
 		},
 		{
-			image: useBaseUrl('img/showcase/uandhgroup.webp'),
-			label: 'uandhgroup Web',
+			image: useBaseUrl('img/showcase/hhftechtips.webp'),
+			label: 'hhftechtips Web',
 			desc: 'An independent design and development agency with offices in the US and Europe. We create beautiful apps people love to use.',
-			link: 'https://uandhgroup.com/',
+			link: 'https://hhftechtips.com/',
 		},
 		{
 			image: useBaseUrl('img/showcase/solplanet.webp'),
@@ -90,9 +90,9 @@ export default function ShowcaseGrid(props) {
 		},
 		{
 			image: useBaseUrl('img/showcase/academy.webp'),
-			label: 'uandhgroup Academy',
+			label: 'hhftechtips Academy',
 			desc: 'Learn how to build apps. For free. No practical experience? No problem. People who build apps every day are teaching how to create software from scratch. By the end of the course, you will have built your very own app.',
-			link: 'https://academy.uandhgroup.com/',
+			link: 'https://academy.hhftechtips.com/',
 		},
 		{
 			image: useBaseUrl('img/showcase/raise-the-bar.webp'),

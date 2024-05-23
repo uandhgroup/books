@@ -9,7 +9,7 @@ export function WindowObject(props) {
 		url,
 	} = props;
 
-	const internalUrl = `https://github.com/uandhgroup/eightshift-forms/blob/develop/src/Blocks/components/form/assets/${url}.js`;
+	const internalUrl = `https://github.com/hhftechtips/eightshift-forms/blob/develop/src/Blocks/components/form/assets/${url}.js`;
 
 	return (
 	<>

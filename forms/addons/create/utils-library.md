@@ -3,13 +3,13 @@ id: utils-library
 title: Utils library
 ---
 
-In order to provide a better experience for developers, we have created a library of utility functions that can be used in your add-on plugin. This library is available in the [Eightshift Forms Utils package](https://github.com/uandhgroup/eightshift-forms-utils).
+In order to provide a better experience for developers, we have created a library of utility functions that can be used in your add-on plugin. This library is available in the [Eightshift Forms Utils package](https://github.com/hhftechtips/eightshift-forms-utils).
 
 In this library we have multiple utils classes with PHP. To use it in your add-on, you need to require the package in your `composer.json` file.
 
 ```json
 "require": {
-	"uandhgroup/eightshift-forms-utils": "^1.1.10",
+	"hhftechtips/eightshift-forms-utils": "^1.1.10",
 },
 ```
 

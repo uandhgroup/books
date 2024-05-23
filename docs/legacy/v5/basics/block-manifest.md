@@ -4,7 +4,7 @@ title: Block Manifest
 sidebar_label: Block Manifest
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eigthshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/blocks/)
+[![docs-source](https://img.shields.io/badge/source-eigthshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/blocks/)
 
 
 This file contains all the configuration required for a block to work. It's used in WordPress [`registerBlockType`](https://developer.wordpress.org/block-editor/developers/block-api/block-registration/) method to register a block. Using `manifest.json`, we can provide a configuration in JavaScript and PHP part of the block in one file.
@@ -121,5 +121,5 @@ import manifest from 'manifest.json';
 ```
 
 As you can see, you can share anything this way. Here are some additional examples:
-* [Social Links](https://github.com/uandhgroup/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/Blocks/components/social-links/manifest.json)
-* [Button](https://github.com/uandhgroup/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/Blocks/components/button/manifest.json)
+* [Social Links](https://github.com/hhftechtips/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/Blocks/components/social-links/manifest.json)
+* [Button](https://github.com/hhftechtips/eightshift-frontend-libs/tree/4.0.0/blocks/init/src/Blocks/components/button/manifest.json)

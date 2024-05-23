@@ -3,9 +3,9 @@ id: stubs
 title: Eightshift Libs Stubs
 ---
 
-[![GitHub tag](https://img.shields.io/github/tag/uandhgroup/eightshift-libs-stubs.svg?style=for-the-badge)](https://github.com/uandhgroup/eightshift-libs-stubs)
+[![GitHub tag](https://img.shields.io/github/tag/hhftechtips/eightshift-libs-stubs.svg?style=for-the-badge)](https://github.com/hhftechtips/eightshift-libs-stubs)
 
 This package offers PHPStan stubs for the use with Eightshift Frontend Libs. Currently, it only holds the Helpers stubs, since those are the only ones needed for inspections inside the block files.
 
-* [Documentation](https://github.com/uandhgroup/eightshift-libs-stubs/wiki)
-* [Github](https://github.com/uandhgroup/eightshift-libs-stubs)
+* [Documentation](https://github.com/hhftechtips/eightshift-libs-stubs/wiki)
+* [Github](https://github.com/hhftechtips/eightshift-libs-stubs)

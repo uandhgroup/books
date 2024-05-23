@@ -3,7 +3,7 @@ id: rest-route
 title: REST Route
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-libs/tree/4.0.0)
+[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-libs/tree/4.0.0)
 
 This class is used to create a new REST API route.
 

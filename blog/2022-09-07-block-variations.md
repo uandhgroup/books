@@ -34,7 +34,7 @@ Inside your `manifest.json` file, add the attributes to define the new default a
 
 ```json
 {
-	"$schema": "https://raw.githubusercontent.com/uandhgroup/eightshift-frontend-libs/develop/schemas/variation.json",
+	"$schema": "https://raw.githubusercontent.com/hhftechtips/eightshift-frontend-libs/develop/schemas/variation.json",
 	"parentName": "card",
 	"name": "card-resource",
 	"title": "Card Resource",
@@ -75,7 +75,7 @@ Once you have the `Carousel` block up and running, create a variation called `Ca
 We will also add some placeholder images so you can immediately test the Carousel block variation. Here is the code you can add to the `manifest.json` file for that variation.
 ```json
 {
-	"$schema": "https://raw.githubusercontent.com/uandhgroup/eightshift-frontend-libs/develop/schemas/variation.json",
+	"$schema": "https://raw.githubusercontent.com/hhftechtips/eightshift-frontend-libs/develop/schemas/variation.json",
 	"parentName": "carousel",
 	"name": "carousel-loop",
 	"title": "Carousel Loop",

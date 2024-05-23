@@ -3,9 +3,9 @@ id: eightshift-libs
 title: Eightshift Libs
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-libs)
+[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-libs)
 
-This library is aimed at bringing modern back-end development tools to the [Eightshift Boilerplate](https://github.com/uandhgroup/eightshift-boilerplate) or [Eightshift Boilerplate Plugin](https://github.com/uandhgroup/eightshift-boilerplate-plugin), but you can use it on any WordPress project.
+This library is aimed at bringing modern back-end development tools to the [Eightshift Boilerplate](https://github.com/hhftechtips/eightshift-boilerplate) or [Eightshift Boilerplate Plugin](https://github.com/hhftechtips/eightshift-boilerplate-plugin), but you can use it on any WordPress project.
 
 It uses a dependency injection container that provides a way to inject dependencies into classes to obey the single responsibility principle (SRP). Every class is responsible for registering its hooks, loaded automatically by the dependency injection container. This provides a more testable environment for your project.
 
@@ -38,4 +38,4 @@ You can try to manually add the backend libs using composer and frontend using n
 
 ## Who do I talk to?
 
-If you have any questions or problems, please [open an issue](https://github.com/uandhgroup/eightshift-libs/issues) on GitHub, and we will do our best to give you a timely answer.
+If you have any questions or problems, please [open an issue](https://github.com/hhftechtips/eightshift-libs/issues) on GitHub, and we will do our best to give you a timely answer.

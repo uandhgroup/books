@@ -8,4 +8,4 @@ title: Intro
 
 ## How to purchase?
 
-Premium plugins are not included with Eightshift Forms and have to be purchased separately. For more info, [drop us an e-mail](mailto:support.eightshift-forms@uandhgroup.com).
+Premium plugins are not included with Eightshift Forms and have to be purchased separately. For more info, [drop us an e-mail](mailto:support.eightshift-forms@hhftechtips.com).

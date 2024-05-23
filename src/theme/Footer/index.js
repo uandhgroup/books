@@ -1,13 +1,13 @@
 import React from 'react';
 import { useThemeConfig } from '@docusaurus/theme-common';
 
-import { Footer as uandhgroupFooter } from '@uandhgroup/docusaurus-theme';
+import { Footer as hhftechtipsFooter } from '@hhftechtips/docusaurus-theme';
 
 function Footer() {
 	const { footer } = useThemeConfig();
 
 	return (
-		<uandhgroupFooter footer={footer} />
+		<hhftechtipsFooter footer={footer} />
 	);
 }
 

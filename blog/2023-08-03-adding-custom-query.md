@@ -137,4 +137,4 @@ return $postData;
 
 ## Best practices for queries
 
-It’s important to have query optimisation in mind. Some queries may be a lot slower and you have to see if there is any way to follow the [best practices for database queries](https://uandhgroup.com/handbook/wordpress/coding-standards/php-coding-standards/database-queries).
+It’s important to have query optimisation in mind. Some queries may be a lot slower and you have to see if there is any way to follow the [best practices for database queries](https://hhftechtips.com/handbook/wordpress/coding-standards/php-coding-standards/database-queries).

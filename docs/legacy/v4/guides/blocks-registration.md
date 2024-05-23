@@ -8,4 +8,4 @@ In general, we have created all block registration in the manifest.json file. We
 
 `registerBlocks` function loops through all block manifest and registers all blocks in the Block Editor using the native `registerBlockType` method.
 
-To be able to register all block, please check this [file](https://github.com/uandhgroup/eightshift-frontend-libs/tree/v2.0.0/blocks/init/src/blocks/assets/scripts/application-blocks-editor.js).
+To be able to register all block, please check this [file](https://github.com/hhftechtips/eightshift-frontend-libs/tree/v2.0.0/blocks/init/src/blocks/assets/scripts/application-blocks-editor.js).

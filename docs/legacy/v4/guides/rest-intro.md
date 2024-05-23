@@ -3,7 +3,7 @@ id: rest-intro
 title: Rest Intro
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eigthshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-libs/tree/master/src/rest)
+[![docs-source](https://img.shields.io/badge/source-eigthshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/hhftechtips/eightshift-libs/tree/master/src/rest)
 
 When you are working on a more complex WordPress project at one point, you will have to make a new Rest API route or add a new API field to the existing route, or something else.
 
@@ -19,7 +19,7 @@ and 2 abstract classes:
 
 In general, you will use only what you need from the provided options.
 
-Full details of Rest API implementation can be found here: [Eightshift-libs Rest](https://github.com/uandhgroup/eightshift-libs/tree/v2.0.0/src/rest)
+Full details of Rest API implementation can be found here: [Eightshift-libs Rest](https://github.com/hhftechtips/eightshift-libs/tree/v2.0.0/src/rest)
 
 
 ## Interface-callable-field.php

@@ -70,32 +70,32 @@ module.exports = {
 					items: [
 						{
 							label: 'Facebook',
-							href: 'https://facebook.com/uandhgroupcom',
+							href: 'https://facebook.com/hhftechtipscom',
 							icon: 'facebook',
 						},
 						{
 							label: 'Instagram',
-							href: 'https://instagram.com/uandhgroupcom/',
+							href: 'https://instagram.com/hhftechtipscom/',
 							icon: 'instagram',
 						},
 						{
 							label: 'Twitter',
-							href: 'https://twitter.com/uandhgroup',
+							href: 'https://twitter.com/hhftechtips',
 							icon: 'twitter',
 						},
 						{
 							label: 'Clutch',
-							href: 'https://clutch.co/profile/uandhgroup',
+							href: 'https://clutch.co/profile/hhftechtips',
 							icon: 'clutch',
 						},
 						{
 							label: 'Dribbble',
-							href: 'https://dribbble.com/uandhgroup',
+							href: 'https://dribbble.com/hhftechtips',
 							icon: 'dribbble',
 						},
 						{
 							label: 'LinkedIn',
-							href: 'https://linkedin.com/company/uandhgroup/',
+							href: 'https://linkedin.com/company/hhftechtips/',
 							icon: 'linkedin',
 						},
 					],
@@ -106,7 +106,7 @@ module.exports = {
 		algolia: {
 			appId: 'CWB1S6U3C4',
 			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-			indexName: 'uandhgroup_eightshift',
+			indexName: 'hhftechtips_eightshift',
 			startUrls: ['https://books.hhf.co.in', 'https://books.hhf.co.in/docs', 'https://books.hhf.co.in/forms'],
 			contextualSearch: false,
 		},
@@ -141,7 +141,7 @@ module.exports = {
 				theme: {
 					customCss: [
 						require.resolve('./src/theme/styles.css'),
-						require.resolve('@uandhgroup/docusaurus-theme/dist/style.css'),
+						require.resolve('@hhftechtips/docusaurus-theme/dist/style.css'),
 					],
 				},
 				blog: {
