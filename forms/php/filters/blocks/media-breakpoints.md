@@ -3,7 +3,7 @@ id: media-breakpoints
 title: Media breakpoints
 ---
 
-By default, we use 4 breakpoints in our responsive design system, defined [here](https://github.com/infinum/eightshift-forms/blob/develop/src/Blocks/manifest.json) within the `breakpoints` key.
+By default, we use 4 breakpoints in our responsive design system, defined [here](https://github.com/uandhgroup/eightshift-forms/blob/develop/src/Blocks/manifest.json) within the `breakpoints` key.
 
 If you project uses different breakpoint values, you can change them with this filter.
 

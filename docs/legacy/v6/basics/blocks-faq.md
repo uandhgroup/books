@@ -3,7 +3,7 @@ id: blocks-faq
 title: Faq
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eightshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/infinum/eightshift-frontend-libs/tree/5.0.0/blocks/init/src/blocks/)
+[![docs-source](https://img.shields.io/badge/source-eightshift--frontend--libs-yellow?style=for-the-badge&logo=javascript&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-frontend-libs/tree/5.0.0/blocks/init/src/blocks/)
 
 Before we dive into blocks and see how everything is set, we should describe this setup's mindset.
 If you've managed to set up your project by this point with the [WP-CLI](wp-cli) command `setup_theme`, you might have a few questions. We will try to answer all those questions here.
@@ -58,7 +58,7 @@ and style that block however you seem fit.
 
 ### What if I add a block and it throws an error that it is missing some components, what do I do?
 
-All blocks/components have some kind of documentation and in that documentation we have a list of dependencies each block/component needs to have in the project in order for it to work. For example you can look in the [heading block](https://github.com/infinum/eightshift-frontend-libs/blob/develop/blocks/init/src/Blocks/custom/heading/docs/readme.mdx), as you can see the heading blocks depends on the heading component, so if you install a heading block before heading component it will resolve in to an error. So please be sure that your block/component installation follows the correct order.
+All blocks/components have some kind of documentation and in that documentation we have a list of dependencies each block/component needs to have in the project in order for it to work. For example you can look in the [heading block](https://github.com/uandhgroup/eightshift-frontend-libs/blob/develop/blocks/init/src/Blocks/custom/heading/docs/readme.mdx), as you can see the heading blocks depends on the heading component, so if you install a heading block before heading component it will resolve in to an error. So please be sure that your block/component installation follows the correct order.
 
 ### How can I use your pre-made blocks?
 
@@ -120,7 +120,7 @@ Our recommendation is not to burden yourself with components from the beginning.
 
 ### Will this setup work with full site editing?
 
-Yes, it will. We are constantly upgrading this documentation and our code to say that it will work with full site editing. This boilerplate was made for the Infinum/Eightshift WordPress team, so we are constantly using it in our projects.
+Yes, it will. We are constantly upgrading this documentation and our code to say that it will work with full site editing. This boilerplate was made for the uandhgroup/Eightshift WordPress team, so we are constantly using it in our projects.
 
 ### Can I use core blocks with your setup?
 
@@ -195,7 +195,7 @@ public function getCustomCategory(array $categories, \WP_Post $post): array
 
 ### What if you don't yet support something from the native setup? What can I do?
 
-As we described in [this chapter](blocks), if we don't support something natively from the core or you can't find it in this documentation, you can always use it in the normal native way from the [WordPress documentation](https://developer.wordpress.org/block-editor/tutorials/block-tutorial/). Also, if you think we are missing something, please open a [pull request](https://github.com/infinum/eightshift-frontend-libs/pulls) or an [issue](https://github.com/infinum/eightshift-frontend-libs/issues) on our GitHub repository.
+As we described in [this chapter](blocks), if we don't support something natively from the core or you can't find it in this documentation, you can always use it in the normal native way from the [WordPress documentation](https://developer.wordpress.org/block-editor/tutorials/block-tutorial/). Also, if you think we are missing something, please open a [pull request](https://github.com/uandhgroup/eightshift-frontend-libs/pulls) or an [issue](https://github.com/uandhgroup/eightshift-frontend-libs/issues) on our GitHub repository.
 
 ### Why is my blocks folder called `custom` and not `blocks`, for example?
 

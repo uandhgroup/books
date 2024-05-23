@@ -42,10 +42,10 @@ For this example, we'll use `index.php`, as you already have it in your theme. I
 /**
  * Display regular index/home page
  *
- * @package InfinumLibs
+ * @package uandhgroupLibs
  */
 
-use InfinumLibsVendor\EightshiftLibs\Helpers\Components;
+use uandhgroupLibsVendor\EightshiftLibs\Helpers\Components;
 
 get_header();
 
@@ -67,13 +67,13 @@ And there it is, a bog-standard blog page that you can style only "the old way".
 
 First, let's import our `Components` helper class. Make sure to use the namespace from your `composer.json`.
 ```php
-use InfinumLibsVendor\EightshiftLibs\Helpers\Components;
+use uandhgroupLibsVendor\EightshiftLibs\Helpers\Components;
 ```
 
 If we look deeper into the `render` method, we'll see that for the `$component` parameter, we can pass the _component's name or the full path (ending with .php)_. We made it simple, so use `wrapper`.
 
 :::note
-If you are upgrading from an older version (supported since [Libs v6.5.7] (https://github.com/infinum/eightshift-libs/releases/tag/6.5.7) and [Frontend Libs v8.6.2](https://github.com/infinum/eightshift-frontend-libs/releases/tag/8.6.2)) copy code from [wrapper.php](https://github.com/infinum/eightshift-frontend-libs/blob/develop/blocks/init/src/Blocks/wrapper/wrapper.php) into your project.
+If you are upgrading from an older version (supported since [Libs v6.5.7] (https://github.com/uandhgroup/eightshift-libs/releases/tag/6.5.7) and [Frontend Libs v8.6.2](https://github.com/uandhgroup/eightshift-frontend-libs/releases/tag/8.6.2)) copy code from [wrapper.php](https://github.com/uandhgroup/eightshift-frontend-libs/blob/develop/blocks/init/src/Blocks/wrapper/wrapper.php) into your project.
 :::
 
 We have two required properties to add to the Wrappers `manifest.json`: `wrapperOnlyOutput` and `wrapperManualContent`.
@@ -108,7 +108,7 @@ Setting the `$useComponentDefaults` to `true` will save you the trouble of setti
 
 Now that we have a working Wrapper component in our template, it's time to display posts in the loop.
 
-Let's use the [Card](https://infinum.github.io/eightshift-frontend-libs/storybook/?path=/story/components-card--editor) from the Frontend Libs as it's the perfect component to display post details and pass it to the `wrapperManualContent`.
+Let's use the [Card](https://uandhgroup.github.io/eightshift-frontend-libs/storybook/?path=/story/components-card--editor) from the Frontend Libs as it's the perfect component to display post details and pass it to the `wrapperManualContent`.
 
 To make the Card component look even better, we'll use some of the powerful properties the Wrapper component has to offer and add spacing between each item.
 
@@ -129,10 +129,10 @@ For the list of all available properties, look at the Wrapper's `manifest.json`.
 /**
  * Display regular index/home page
  *
- * @package InfinumLibs
+ * @package uandhgroupLibs
  */
 
-use InfinumLibsVendor\EightshiftLibs\Helpers\Components;
+use uandhgroupLibsVendor\EightshiftLibs\Helpers\Components;
 
 get_header();
 

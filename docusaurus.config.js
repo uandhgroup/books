@@ -70,32 +70,32 @@ module.exports = {
 					items: [
 						{
 							label: 'Facebook',
-							href: 'https://facebook.com/infinumcom',
+							href: 'https://facebook.com/uandhgroupcom',
 							icon: 'facebook',
 						},
 						{
 							label: 'Instagram',
-							href: 'https://instagram.com/infinumcom/',
+							href: 'https://instagram.com/uandhgroupcom/',
 							icon: 'instagram',
 						},
 						{
 							label: 'Twitter',
-							href: 'https://twitter.com/infinum',
+							href: 'https://twitter.com/uandhgroup',
 							icon: 'twitter',
 						},
 						{
 							label: 'Clutch',
-							href: 'https://clutch.co/profile/infinum',
+							href: 'https://clutch.co/profile/uandhgroup',
 							icon: 'clutch',
 						},
 						{
 							label: 'Dribbble',
-							href: 'https://dribbble.com/infinum',
+							href: 'https://dribbble.com/uandhgroup',
 							icon: 'dribbble',
 						},
 						{
 							label: 'LinkedIn',
-							href: 'https://linkedin.com/company/infinum/',
+							href: 'https://linkedin.com/company/uandhgroup/',
 							icon: 'linkedin',
 						},
 					],
@@ -106,7 +106,7 @@ module.exports = {
 		algolia: {
 			appId: 'CWB1S6U3C4',
 			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
-			indexName: 'infinum_eightshift',
+			indexName: 'uandhgroup_eightshift',
 			startUrls: ['https://books.hhf.co.in', 'https://books.hhf.co.in/docs', 'https://books.hhf.co.in/forms'],
 			contextualSearch: false,
 		},
@@ -141,7 +141,7 @@ module.exports = {
 				theme: {
 					customCss: [
 						require.resolve('./src/theme/styles.css'),
-						require.resolve('@infinum/docusaurus-theme/dist/style.css'),
+						require.resolve('@uandhgroup/docusaurus-theme/dist/style.css'),
 					],
 				},
 				blog: {

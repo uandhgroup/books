@@ -3,13 +3,13 @@ id: namespaces
 title: Namespaces
 ---
 
-[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/infinum/eightshift-libs)
+[![docs-source](https://img.shields.io/badge/source-eightshift--libs-blue?style=for-the-badge&logo=php&labelColor=2a2a2a)](https://github.com/uandhgroup/eightshift-libs)
 
 :::tip
 The PHP codebase of this project lives in `EightshiftLibs` namespace.
 :::
 
-Because WordPress lives in a global namespace, we had to provide the way for your project to be unique. That is why we implemented [**Imposter**](https://github.com/infinum/imposter-plugin) in `composer.json`. Imposter adds a namespace prefix to all the packages inside the `vendor` folder that use namespacing.
+Because WordPress lives in a global namespace, we had to provide the way for your project to be unique. That is why we implemented [**Imposter**](https://github.com/uandhgroup/imposter-plugin) in `composer.json`. Imposter adds a namespace prefix to all the packages inside the `vendor` folder that use namespacing.
 
 You can change the vendor prefix in your `composer.json` file. If you do this, make sure you delete the `vendor` folder and re-run `composer install`.
 

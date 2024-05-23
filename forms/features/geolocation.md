@@ -19,7 +19,7 @@ By default, our geolocation service uses the [GeoLite2 MaxMind ID database](http
 
 We use DataHub to list countries for the dropdown menu to select the country of usage.
 
-[All releases are listed here](https://datahub.io/core/country-list) and our implementation is located on [this link](https://github.com/infinum/eightshift-forms/blob/develop/data/country/manifest.json).
+[All releases are listed here](https://datahub.io/core/country-list) and our implementation is located on [this link](https://github.com/uandhgroup/eightshift-forms/blob/develop/data/country/manifest.json).
 
 With the default countries list, we have made a few groups:
 * Europe

@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import { ShowcaseCard, CtaImageButton } from '@infinum/docusaurus-theme';
+import { ShowcaseCard, CtaImageButton } from '@uandhgroup/docusaurus-theme';
 import { EsOpenSource } from '../os-projects';
 
 const shuffleArray = (array) => array.map(value => ({ value, sort: Math.random() }))
@@ -12,11 +12,11 @@ export default function ShowcaseGrid(props) {
 		privateType,
 	} = props;
 
-	const headingTitle = privateType ? 'Infinum showcase' : 'Showcase';
-	const headingSubtitle = privateType ? "See all the awesome websites built by Infinum's WordPress team." : 'See the awesome websites people are building with Eightshift Boilerplate.';
+	const headingTitle = privateType ? 'uandhgroup showcase' : 'Showcase';
+	const headingSubtitle = privateType ? "See all the awesome websites built by uandhgroup's WordPress team." : 'See the awesome websites people are building with Eightshift Boilerplate.';
 	const ctaTitle = privateType ? "Let's get in touch" : (<span>Want to add your <br /> project to the list?</span>);
 	const ctaSubtitle = privateType ? 'Contact us' : 'Open an issue on GitHub';
-	const ctaUrl = privateType ? 'https://infinum.com/contact/' : 'https://github.com/infinum/eightshift-docs/issues';
+	const ctaUrl = privateType ? 'https://uandhgroup.com/contact/' : 'https://github.com/uandhgroup/eightshift-docs/issues';
 
 	const privateData = [
 		{
@@ -71,16 +71,16 @@ export default function ShowcaseGrid(props) {
 
 	const publicData = [
 		{
-			image: useBaseUrl('img/showcase/infinum-learn.webp'),
-			label: 'Infinum Learn',
-			desc: 'Courses that will make your onboarding and work at Infinum as easy as possible.',
-			link: 'https://learn.infinum.com/',
+			image: useBaseUrl('img/showcase/uandhgroup-learn.webp'),
+			label: 'uandhgroup Learn',
+			desc: 'Courses that will make your onboarding and work at uandhgroup as easy as possible.',
+			link: 'https://learn.uandhgroup.com/',
 		},
 		{
-			image: useBaseUrl('img/showcase/infinum.webp'),
-			label: 'Infinum Web',
+			image: useBaseUrl('img/showcase/uandhgroup.webp'),
+			label: 'uandhgroup Web',
 			desc: 'An independent design and development agency with offices in the US and Europe. We create beautiful apps people love to use.',
-			link: 'https://infinum.com/',
+			link: 'https://uandhgroup.com/',
 		},
 		{
 			image: useBaseUrl('img/showcase/solplanet.webp'),
@@ -90,9 +90,9 @@ export default function ShowcaseGrid(props) {
 		},
 		{
 			image: useBaseUrl('img/showcase/academy.webp'),
-			label: 'Infinum Academy',
+			label: 'uandhgroup Academy',
 			desc: 'Learn how to build apps. For free. No practical experience? No problem. People who build apps every day are teaching how to create software from scratch. By the end of the course, you will have built your very own app.',
-			link: 'https://academy.infinum.com/',
+			link: 'https://academy.uandhgroup.com/',
 		},
 		{
 			image: useBaseUrl('img/showcase/raise-the-bar.webp'),

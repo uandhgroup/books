@@ -9,7 +9,7 @@ Difference between actions and filters is that actions are used to add functiona
 
 ## How to use actions
 
-The list of all available actions can be found [here](https://github.com/infinum/eightshift-forms/blob/develop/testFilters/testFilters.php), along with descriptions and examples.
+The list of all available actions can be found [here](https://github.com/uandhgroup/eightshift-forms/blob/develop/testFilters/testFilters.php), along with descriptions and examples.
 
 To use a action, simply copy the code snippet from the example and paste it into your project, e.g.
 ```php

@@ -9,4 +9,4 @@ You can customize both the Block Editor and Frontend forms with different option
 
 Crucially, the Frontend forms employ a specially-designed state management system that handles all data-related operations.
 
-If you require further customization options, please don't hesitate to [open an issue](https://github.com/infinum/eightshift-forms/issues/new/choose) and we will work on adding it as soon as possible.
+If you require further customization options, please don't hesitate to [open an issue](https://github.com/uandhgroup/eightshift-forms/issues/new/choose) and we will work on adding it as soon as possible.

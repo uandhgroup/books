@@ -5,7 +5,7 @@ title: Alternative datasets
 
 We use the DataHub country list to provide a REST route with all the countries, as well as the data in the Geolocation and phone number fields.
 
-The complete list can be found [here](https://github.com/infinum/eightshift-forms/blob/develop/data/country/manifest.json).
+The complete list can be found [here](https://github.com/uandhgroup/eightshift-forms/blob/develop/data/country/manifest.json).
 
 By default the Country field will show the full list of countries. With this filter, an alternate dataset can be provided to use instead of the built-in one. Please note that the built-in dataset can't be edited, only a replacement can be provided.
 

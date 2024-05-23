@@ -11,7 +11,7 @@ Below you will find a list of filter and constants that can be set, with descrip
 
 ## How to use filters
 
-The list of all available filters can be found [here](https://github.com/infinum/eightshift-forms/blob/develop/testFilters/testFilters.php), along with descriptions and examples.
+The list of all available filters can be found [here](https://github.com/uandhgroup/eightshift-forms/blob/develop/testFilters/testFilters.php), along with descriptions and examples.
 
 To use a filter, simply copy the code snippet from the example and paste it into your project, e.g.
 ```php
@@ -49,11 +49,11 @@ For example, if you want to test the `es_forms_block_forms_style_options` filter
 define('ES_RUN_TEST_FILTERS', 'es_forms_block_forms_style_options');
 ```
 
-This will automatically load the `testFilters.php` file and run the `es_forms_block_forms_style_options` filter defined [here](https://github.com/infinum/eightshift-forms/blob/develop/testFilters/testFilters.php).
+This will automatically load the `testFilters.php` file and run the `es_forms_block_forms_style_options` filter defined [here](https://github.com/uandhgroup/eightshift-forms/blob/develop/testFilters/testFilters.php).
 
 ### Running all filter tests
 
-The whole filter [test suite](https://github.com/infinum/eightshift-forms/blob/develop/testFilters/testFilters.php) can be run by adding the following line to your `wp-config.php` file:
+The whole filter [test suite](https://github.com/uandhgroup/eightshift-forms/blob/develop/testFilters/testFilters.php) can be run by adding the following line to your `wp-config.php` file:
 
 ```php
 define('ES_RUN_TEST_FILTERS', 'all');
