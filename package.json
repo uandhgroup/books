@@ -1,101 +1,61 @@
 {
-  "name": "digital-support-services-notes",
-  "version": "1.3.3",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "dev": "docusaurus start --host=0.0.0.0 --port=5000",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "lint": "eslint . --ext .ts --ext .js --ext .jsx --ext .tsx",
-    "lint:fix": "npm run lint -- --fix",
-    "format": "prettier --write 'src/**/*.{js,jsx,css}'",
-    "prepare": "is-ci || husky install",
-    "test": "jest --passWithNoTests"
-  },
-  "dependencies": {
-    "@docusaurus/core": "3.3.2",
-    "@docusaurus/preset-classic": "3.3.2",
-    "@headlessui/react": "^2.0.3",
-    "@heroicons/react": "^2.1.3",
-    "@mdx-js/react": "^3.0.1",
-    "@stoplight/elements": "^8.1.3",
-    "@styled-icons/boxicons-logos": "^10.47.0",
-    "clsx": "^2.1.1",
-    "docusaurus-plugin-clarity": "^2.1.0",
-    "docusaurus-plugin-sass": "^0.2.5",
-    "docusaurus-plugin-umami": "^2.0.0",
-    "font-awesome-icons": "^1.6.0",
-    "prop-types": "^15.8.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.2.1",
-    "remark-admonitions": "^1.2.1",
-    "sass": "^1.77.2",
-    "styled-components": "^6.1.11",
-    "unist-util-visit": "^5.0.0",
-    "@iconify-icons/logos": "^1.2.36",
-    "@iconify/react": "^4.1.1"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^12.0.0",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^12.0.1",
-    "@semantic-release/release-notes-generator": "^13.0.0",
-    "buffer": "^6.0.3",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^9.3.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-react": "^7.34.1",
-    "husky": "^9.0.11",
-    "is-ci": "^3.0.1",
-    "jest": "^29.7.0",
-    "path-browserify": "^1.0.1",
-    "postcss-import": "^16.1.0",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.14",
-    "process": "^0.11.10",
-    "semantic-release": "^23.1.1",
-    "stream-browserify": "^3.0.0",
-    "tailwindcss": "^3.4.3"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "prettier": {
-    "trailingComma": "es5",
-    "tabWidth": 2,
-    "semi": true,
-    "singleQuote": true
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+	"name": "@eightshift/docs",
+	"version": "9.1.0",
+	"description": "A documentation website for Eightshift open source projects.",
+	"author": {
+		"name": "Eightshift team",
+		"email": "team@eightshift.com",
+		"url": "https://eightshift.com/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/infinum/eightshift-docs.git"
+	},
+	"keywords": [
+		"frontend",
+		"scss",
+		"mixin",
+		"js",
+		"utility",
+		"module",
+		"WordPress"
+	],
+	"bugs": {
+		"url": "https://github.com/infinum/eightshift-docs/issues"
+	},
+	"scripts": {
+		"docusaurus": "docusaurus",
+		"start": "docusaurus start",
+		"build": "docusaurus build",
+		"deploy": "docusaurus deploy",
+		"serve": "docusaurus serve",
+		"clear": "docusaurus clear"
+	},
+	"dependencies": {
+		"@docusaurus/core": "^3.3.2",
+		"@docusaurus/preset-classic": "^3.3.2",
+		"@infinum/docusaurus-theme": "^0.5.0",
+		"@mdx-js/react": "^3.0.1",
+		"@wp-playground/client": "^0.7.19",
+		"clsx": "^2.1.1",
+		"es-text-loader": "file:plugins/es-text-loader",
+		"prism-react-renderer": "^2.3.1",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"browserslist": {
+		"production": [
+			">0.5%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"raw-loader": "^4.0.2"
+	}
 }

@@ -1,0 +1,35 @@
+@import url('https://use.typekit.net/baz1roy.css');
+
+.esd-full-fixed {
+	position: fixed;
+	inset: 0;
+}
+
+
+progress {
+	appearance: none;
+}
+
+progress::-webkit-progress-bar {
+	background-color: white;
+	border-radius: 10rem;
+	border: 1px solid var(--ifm-color-gray-400);
+
+	height: 0.5rem;
+}
+
+progress::-webkit-progress-value {
+	background-color: #D8262C;
+	border-radius: 10rem;
+
+	height: 0.5rem;
+
+	transition: 0.5s inline-size ease-out;
+}
+
+progress[value]::-moz-progress-bar {
+	background-color: #D8262C;
+	border-radius: 10rem;
+
+	height: 0.5rem;
+}
