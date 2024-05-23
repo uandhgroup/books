@@ -19,7 +19,7 @@ export default function Home() {
 			wrapperClassName='es-footer-white'
 		>
 			<Hero
-				title='Eightshift Development Kit'
+				title='Eightshift Development Kit New'
 				subtitle='All the tools you need to start building a modern WordPress project, using all the latest front end development tools.'
 				buttonLabel='Get started'
 				buttonUrl='#get-started'
