@@ -3,13 +3,13 @@ const {themes} = require('prism-react-renderer');
 const darkTheme = themes.dracula;
 
 module.exports = {
-	title: 'Eightshift Development kit',
-	tagline: 'All the tools you need to start building a modern WordPress project, using all the latest front end development tools.',
-	url: 'https://eightshift.com',
+	title: 'HHF Digital Support Services Books',
+	tagline: 'Maximize Your Homelab Potential with On-Premises-Hosting and Open-Source Security Solutions.',
+	url: 'https://books.hhf.co.in',
 	baseUrl: '/',
 	favicon: '/img/favicon.png',
-	organizationName: 'infinum',
-	projectName: 'eightshift-docs',
+	organizationName: 'hhfbooks',
+	projectName: 'hhfbooks-docs',
 	staticDirectories: ['static'],
 	scripts: [
 		{
@@ -21,26 +21,26 @@ module.exports = {
 	themeConfig: {
 		navbar: {
 			logo: {
-				alt: 'Eightshift DevKit Logo',
+				alt: 'HHF Digital Support Services Books',
 				src: '/img/logo.svg',
 			},
 			items: [
 				{
 					to: 'docs/welcome',
 					activeBasePath: 'docs',
-					label: 'DevKit',
+					label: 'Manuals/Howtos/Tutorials',
 					position: 'right',
 				},
 				{
 					to: 'forms/welcome',
 					activeBasePath: 'forms',
-					label: 'Forms',
+					label: 'DevOps',
 					position: 'right',
 				},
 				{
 					to: '/devkit-components/',
 					activeBasePath: 'devkit-components',
-					label: 'Components',
+					label: 'Tools',
 					position: 'right',
 				},
 				{
@@ -58,7 +58,7 @@ module.exports = {
 				{
 					to: '/showcase',
 					activeBasePath: 'showcase',
-					label: 'Showcase',
+					label: 'Cheat Sheets',
 					position: 'right',
 				},
 			],
@@ -101,13 +101,13 @@ module.exports = {
 					],
 				},
 			],
-			copyright: 'Made with ❤️ by Infinum team.',
+			copyright: 'Complied with ❤️ by HHF Tech Tips.',
 		},
 		algolia: {
 			appId: 'CWB1S6U3C4',
 			apiKey: 'cbae3fc769aee256328548eff1e91c1c',
 			indexName: 'infinum_eightshift',
-			startUrls: ['https://eightshift.com', 'https://eightshift.com/docs', 'https://eightshift.com/forms'],
+			startUrls: ['https://books.hhf.co.in', 'https://books.hhf.co.in/docs', 'https://books.hhf.co.in/forms'],
 			contextualSearch: false,
 		},
 		prism: {
@@ -145,8 +145,8 @@ module.exports = {
 					],
 				},
 				blog: {
-					blogTitle: 'Tutorials and articles about Eightshift development kit',
-					blogDescription: 'Tutorials and articles about Eightshift development kit',
+					blogTitle: 'Tutorials and articles about Open-Source Development and Usage',
+					blogDescription: 'Tutorials and articles about Open-Source Development and Usage',
 					blogSidebarTitle: 'Latest posts',
 					showReadingTime: true,
 					postsPerPage: 9,
