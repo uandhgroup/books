@@ -19,7 +19,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-	background-color: #D8262C;
+	background-color: #084c7e;
 	border-radius: 10rem;
 
 	height: 0.5rem;
@@ -28,7 +28,7 @@ progress::-webkit-progress-value {
 }
 
 progress[value]::-moz-progress-bar {
-	background-color: #D8262C;
+	background-color: #084c7e;
 	border-radius: 10rem;
 
 	height: 0.5rem;
