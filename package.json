@@ -34,7 +34,7 @@
 	"dependencies": {
 		"@docusaurus/core": "^3.3.2",
 		"@docusaurus/preset-classic": "^3.3.2",
-		"@hhftechtips/docusaurus-theme": "^0.6.0",
+		"@hhftechtips/docusaurus-theme": "^0.6.2",
 		"@mdx-js/react": "^3.0.1",
 		"@wp-playground/client": "^0.7.19",
 		"clsx": "^2.1.1",
