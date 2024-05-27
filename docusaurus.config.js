@@ -22,7 +22,7 @@ module.exports = {
 		navbar: {
 			logo: {
 				alt: 'HHF Digital Support Services Books',
-				src: '/img/logo.png',
+				src: '/img/logo.svg',
 			},
 			items: [
 				{
