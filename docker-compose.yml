@@ -3,10 +3,10 @@ services:
     dev:
         build:
             context: .
-            target: prod
+            target: dev
         ports:
             - "3000:3000"
         volumes:
-            - .:/app
+            - .:/docs
         environment:
-            - NODE_ENV=production
+            - NODE_ENV=development
