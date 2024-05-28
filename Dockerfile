@@ -26,7 +26,7 @@ WORKDIR /app
 ## Copy over the source code.
 COPY . /app
 ## Install dependencies with `--immutable` to ensure reproducibility.
-RUN yarn install --immutable
+RUN yarn install
 ## Build the static site.
 RUN yarn build
 
