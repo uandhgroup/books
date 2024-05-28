@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "pnpm build:woodpecker-plugins && docusaurus build",
-    "build:woodpecker-plugins": "cd plugins/woodpecker-plugins && pnpm i && pnpm build",
+    "build": "yarn build:woodpecker-plugins && docusaurus build",
+    "build:woodpecker-plugins": "cd plugins/woodpecker-plugins && yarn i && yarn build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
