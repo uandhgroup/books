@@ -4,14 +4,13 @@ WORKDIR /app
 
 COPY package.json ./
 
-RUN yarn 
-RUN npm install -g pnpm
+RUN pnpm  
 
 COPY . .
 
 #replace with multistage build
-RUN yarn build 
+RUN pnpm build 
 
 EXPOSE 3000 
 
-CMD ["yarn", "serve"]
+CMD ["pnpm", "serve"]
