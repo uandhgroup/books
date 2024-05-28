@@ -8,12 +8,12 @@ ENV FORCE_COLOR=0
 ## Enable corepack.
 RUN corepack enable
 ## Set the working directory to `/opt/docusaurus`.
-WORKDIR /docs
+WORKDIR /app
 
 # Stage 2a: Development mode.
 FROM base as dev
 ## Set the working directory to `/opt/docusaurus`.
-WORKDIR /docs
+WORKDIR /app
 ## Expose the port that Docusaurus will run on.
 EXPOSE 3000
 ## Run the development server.
@@ -22,9 +22,9 @@ CMD [ -d "node_modules" ] && yarn start --host 0.0.0.0 --poll 1000 || yarn insta
 # Stage 2b: Production build mode.
 FROM base as prod
 ## Set the working directory to `/opt/docusaurus`.
-WORKDIR /docs
+WORKDIR /app
 ## Copy over the source code.
-COPY . /docs
+COPY . /app
 ## Install dependencies with `--immutable` to ensure reproducibility.
 RUN yarn install
 ## Build the static site.
