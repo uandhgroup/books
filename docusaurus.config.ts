@@ -285,23 +285,6 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
-    [
-      'redocusaurus',
-      {
-        // Plugin Options for loading OpenAPI files
-        specs: [
-          {
-            spec: 'swagger.json',
-            route: '/api/',
-          },
-        ],
-        // Theme Options for modifying how redoc renders them
-        theme: {
-          // Change with your site colors
-          primaryColor: '#1890ff',
-        },
-      },
-    ],
   ],
   webpack: {
     jsLoader: (isServer) => ({
