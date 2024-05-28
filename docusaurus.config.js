@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 const config = {
   title: "Tech Fiddle",
   tagline: "All About Technology...",
-  url: "https://techfiddle.io",
+  url: "https://books.hhf.co.in",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",

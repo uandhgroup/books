@@ -8,7 +8,7 @@ interface GetReleaseProps {
 const GetRelease: React.FC<GetReleaseProps> = ({ repo }) => {
   const [releaseVersion, setReleaseVersion] = React.useState<string>('');
   React.useEffect(() => {
-    const token = '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'
+    const token = ''
     const fetchLatestRelease = async () => {
       const octokit = new Octokit({auth: token});
 
