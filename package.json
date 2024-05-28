@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cd ../ && make docs && cd docs && docusaurus start",
     "build": "pnpm build:woodpecker-plugins && docusaurus build",
     "build:woodpecker-plugins": "cd plugins/woodpecker-plugins && pnpm i && pnpm build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
+    "docusaurus": "docusaurus",
+		"start": "docusaurus start",
+		"deploy": "docusaurus deploy",
+		"serve": "docusaurus serve",
+		"clear": "docusaurus clear",
+	  "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
