@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY package.json ./
 
+npm install -g pnpm
 RUN pnpm  
 
 COPY . .
