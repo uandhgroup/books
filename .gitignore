@@ -1,6 +1,5 @@
 # Dependencies
 /node_modules
-package-lock.json
 
 # Production
 /build
@@ -8,7 +7,6 @@ package-lock.json
 # Generated files
 .docusaurus
 .cache-loader
-/.vscode
 
 # Misc
 .DS_Store
@@ -20,8 +18,3 @@ package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Local Netlify folder
-.netlify
-
-node_modules

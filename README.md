@@ -1,17 +1,35 @@
-# <p align="center">Tech Fiddle Website</p>
+# Website
 
-[![Vercel Status](https://vercel-badge-tech-fiddle.vercel.app/api/Comp-Labs/comp-labs-website)](https://techfiddle.io)
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
 
-<hr />
+## Installation
 
-This Repository Contains source code for the [Tech Fiddle Website](https://github.com/Comp-Labs/comp-labs-website).
+```bash
+pnpm install
+```
 
-Written in ReactJS, Markdown, and MDX. Built using [Docusaurus](docusaurus.io). Deploys with [Netlify](netlify.com).
+## Local Development
 
-[Visit Website](https://techfiddle.io)
+```bash
+pnpm start
+```
 
-<footer>
-<p align="center" style="font-size: smaller;">
-Built with ❤️ by Tech Fiddle.
-</p>
-</footer>
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```bash
+pnpm build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+Deployment happen via [CI](https://github.com/woodpecker-ci/woodpecker/blob/d59fdb4602bfdd0d00078716ba61b05c02cbd1af/.woodpecker/docs.yml#L8-L30) to [woodpecker-ci.org](https://woodpecker-ci.org).
+
+To manually build the website and push it exec:
+
+```sh
+GIT_USER=woodpecker-bot USE_SSH=true DEPLOYMENT_BRANCH=main pnpm deploy
+```
