@@ -17,7 +17,7 @@ const config: Config = {
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: 'Woodpecker',
+      title: 'HHF Books',
       logo: {
         alt: 'Woodpecker Logo',
         src: 'img/logo.svg',
@@ -104,7 +104,7 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Matrix',
+              label: 'Discord',
               href: 'https://matrix.to/#/#woodpecker:matrix.org',
             },
             {
