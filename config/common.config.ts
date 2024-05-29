@@ -9,7 +9,7 @@ export const commonConfig: Omit<Config, 'plugins' | 'i18n' | 'presets' | 'themeC
 	title: 'STARTON DOCUMENTATION',
 	tagline: 'Turn any app into a blockchain app.',
 	baseUrl: '/',
-	url: process.env.URL,
+	url: `https://books.hhf.co.in`,
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: '/img/logo.svg',
