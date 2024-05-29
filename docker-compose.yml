@@ -1,12 +1,9 @@
-name: "docusaurus"
-services:
-    dev:
-        build:
-            context: .
-            target: prod
-        ports:
-            - "3000:3000"
-        volumes:
-            - .:/app
-        environment:
-            - NODE_ENV=production
+version: '3.8'
+
+services: 
+  react-docker:
+    image: francescoxx/dailydev-docs:0.9.3
+    build: 
+      context: .
+    ports: 
+      - "3000:3000"
