@@ -16,6 +16,8 @@ FROM base as dev
 WORKDIR /app
 ## Expose the port that Docusaurus will run on.
 EXPOSE 3000
+RUN apk add --no-cache python3 make g++
+ENV PYTHON /usr/bin/python3
 ## Run the development server.
 CMD [ -d "node_modules" ] && yarn start --host 0.0.0.0 --poll 1000 || yarn install && yarn start --host 0.0.0.0 --poll 1000
 
