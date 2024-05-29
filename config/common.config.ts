@@ -6,8 +6,8 @@
 import type { Config } from '@docusaurus/types'
 
 export const commonConfig: Omit<Config, 'plugins' | 'i18n' | 'presets' | 'themeConfig'> = {
-	title: 'STARTON DOCUMENTATION',
-	tagline: 'Turn any app into a blockchain app.',
+	title: 'HHF TECH TIPS BOOKS',
+	tagline: 'The world of Open-source smplified with right path',
 	baseUrl: '/',
 	url: `https://books.hhf.co.in`,
 	onBrokenLinks: 'warn',

@@ -28,6 +28,8 @@ WORKDIR /app
 ## Copy over the source code.
 COPY . /app
 ## Install dependencies with `--immutable` to ensure reproducibility.
+RUN apk add --no-cache python3 make g++
+ENV PYTHON /usr/bin/python3
 RUN yarn install --immutable
 ## Build the static site.
 RUN yarn build

@@ -22,7 +22,7 @@ if (!fs.existsSync('./.certs')) {
 | Dev cert configurations
 |--------------------------------------------------------------------------
 */
-const HOSTNAME = process.env.HOSTNAME || 'docs.local.starton-staging.com'
+const HOSTNAME = process.env.HOSTNAME || 'docs.local.hhf.co.in'
 const domains = [HOSTNAME]
 
 /*

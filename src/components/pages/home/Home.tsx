@@ -30,7 +30,7 @@ function Home(props: HomeProps) {
 		<Layout title="Starton Hub | Documentation, Guides, Tutorials">
 			{/* HERO BANNER */}
 			<PageHeader
-				subTitle={'Welcome on'}
+				subTitle={'All notes for Digital Support Services'}
 				title={
 					<React.Fragment>
 						Starton <span>Documentation</span>

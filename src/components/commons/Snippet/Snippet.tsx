@@ -20,7 +20,39 @@ export interface SnippetProps {}
 | Constants
 |--------------------------------------------------------------------------
 */
-const lines = ['awesome', 'useful', 'accessible'] as const
+const lines = ['authelia', 
+'bookstack', 
+'calibre_readarr', 
+'cloudbeaver', 
+'clusterplex', 
+'clusterplex_worker', 
+'dizquetv', 
+'ghost', 
+'gluetun', 
+'gotify', 
+'grafana-prometheus', 
+'grafana', 
+'homepage', 
+'immich', 
+'kestra', 
+'kimai', 
+'nextcloud', 
+'nginx', 
+'node_exporter', 
+'ntfy', 
+'overseerr', 
+'prometheus', 
+'prowlarr', 
+'pterodactyl', 
+'qbittorrent', 
+'radarr', 
+'sonarr', 
+'syncthing', 
+'tautulli', 
+'tdarr', 
+'unpackerr', 
+'uptime_kuma', 
+'vaultwarden', 'watchtower'] as const
 
 /*
 |--------------------------------------------------------------------------
