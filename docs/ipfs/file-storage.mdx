@@ -1,0 +1,61 @@
+---
+title:  File Storage
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+---
+
+import {CompareArrowsOutlined, RocketLaunchOutlined, UploadOutlined} from "@mui/icons-material"
+
+# File Storage
+
+Starton Storage is designed to provide access to IPFS, facilitating the storage and management of digital assets. The service enables users to upload files, folders, and manage NFT metadata through Starton API.
+
+<DocsSectionLinks
+links={[
+{
+link: '/docs/ipfs/uploading-on-ipfs',
+title: 'UPLOADING FILES ',
+icon: <RocketLaunchOutlined />,
+},
+{
+link: '/docs/ipfs/uploading-json',
+title: 'UPLOADING JSON',
+icon: <UploadOutlined />
+},
+{
+link: '/docs/ipfs/pinning-file',
+title: 'PINNING FILES FROM CID',
+icon: <CompareArrowsOutlined />,
+},
+]}
+video={{
+src: 'https://www.youtube.com/embed/9P1gjHuSEbM?si=ZSd5L56UFbOqmSbG',
+}}
+/>
+
+<DocsGettingStarted
+links={[
+{
+href: '/tutorials/storing-files-on-ipfs',
+overline: 'Tutorial',
+title: 'STORING YOUR FIRST FILE ON IPFS ',
+},
+{
+href: '/tutorials/uploading-metadata-nft',
+overline: 'Tutorial',
+title: 'Uploading your NFT metadata',
+},
+]}
+endpoints={[
+{
+link: '/api-reference#tag/ipfs/[post]/v3/ipfs/folder',
+},
+{
+link: '/api-reference#tag/ipfs/[post]/v3/ipfs/pin',
+},
+{
+link: '/api-reference#tag/ipfs/[post]/v3/ipfs/storage-used',
+},
+]}
+/>

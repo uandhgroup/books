@@ -1,0 +1,66 @@
+---
+title: Wallets
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+---
+
+import Heading from "@theme/Heading"
+import Link from "@docusaurus/Link"
+import { CardTitle } from "@site/src/components/commons/CardTitle"
+import { Starton } from "@starton/react-ui-iconography"
+import {CompareArrowsOutlined, RocketLaunchOutlined, UploadOutlined} from "@mui/icons-material"
+
+# Wallets
+
+
+To **interact with blockchains**, you need a **wallet for signing transactions**. For automated signing, you need a back-end wallet. Starton provides a **[wallet on their KMS for testing](/docs/wallet/creating-a-wallet)**. In production, you can **[grant Starton access to a wallet in your KMS](/docs/wallet/connecting-aws-kms)**.
+
+
+<DocsSectionLinks
+links={[
+{
+link: '/docs/wallet/connecting-aws-kms',
+title: 'Key Management Systems',
+icon: <RocketLaunchOutlined />,
+},
+{
+link: '/docs/wallet/creating-a-wallet',
+title: 'Wallets',
+icon: <UploadOutlined />
+},
+]}
+video={{
+src: 'https://www.youtube.com/embed/S4yWJzc05LI?si=mYJMyPkL3yd_wlis',
+}}
+/>
+
+<DocsGettingStarted
+links={[
+{
+href: '/docs/wallet/connecting-aws-kms',
+overline: 'Tutorial',
+title: 'Creating a wallet on AWS KMS',
+},
+{
+href: '/docs/wallet/creating-a-wallet',
+overline: 'Tutorial',
+title: 'Creating a wallet on Starton Vault',
+},
+]}
+endpoints={[
+{
+link: '/api-reference#tag/wallet/[get]/v3/kms/wallet',
+},
+{
+link: '/api-reference#tag/wallet/[post]/v3/kms/wallet',
+},
+{
+link: '/api-reference#tag/wallet/[post]/v3/kms/wallet/{address}/sign-message',
+},
+{
+link: '/api-reference#tag/wallet/[get]/v3/kms/wallet/{address}/{network}/nonce/available',
+},
+]}
+/>
+

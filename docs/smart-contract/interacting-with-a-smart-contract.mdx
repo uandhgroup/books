@@ -1,0 +1,114 @@
+---
+title: Interacting with  Smart Contracts
+description: Learn how to interact with a smart contract with Starton.
+keywords: [Interact, Starton, Smart contracts]
+---
+
+import Tabs from "@theme/Tabs"
+import TabItem from "@theme/TabItem"
+
+# Interacting with Smart Contracts
+
+Once a smart contract has been deployed or imported, you can interact with it using our **Dashboard** or from Code using the Relayer.
+
+The possible interactions are:
+
+-   Calling a function of the smart contract (will require gas on the associated blockchain's network).
+-   Reading the information on the smart contract (usually free of gas), such as reading the balance on an ERC20 contract.
+
+<Tabs>
+<TabItem value="write" label="Calling a READ function">
+<Tabs>
+<TabItem value="code" label="From Code">
+
+To interact with a smart contract, you can call functions reading information on the blockachain, you can for example list all the functions of your smart contracts using:
+
+```jsx showLineNumbers
+const axios = require("axios")
+
+const startonAPI = axios.create({
+	baseURL: "https://api.starton.com",
+	headers: {
+		"x-api-key": "YOUR_API_KEY",
+	},
+})
+
+startonAPI
+	.get("/v3/smart-contract/polygon-mumbai/0xF205506dA3aF8D0Cc0f90D7C0c0eA4EFA6423CFF/available-functions")
+	.then((res) => console.log(res.data))
+	.catch((e) => console.log(e))
+```
+
+As the number will be read in Gwei, you need to add 18 zeros after the amount of token you want to mint.
+
+You can check your transaction using the transaction hash on your selected network.
+
+Learn more about [how to interact with a Smart Contract from Code](/tutorials/interact-from-code) in our Tutorial section.
+
+</TabItem>
+<TabItem value="dashboard" label="From Webapp">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m9QQTz5KGqw?si=6rmqOby6m3cmxZYT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+1. In **Smart Contract**, select a **Smart Contract**.
+1. Select a **function**.
+1. Enter the **parameters**.
+1. Click **Run**.
+
+</TabItem>
+</Tabs>
+</TabItem>
+<TabItem value="read" label="Calling a WRITE function">
+<Tabs>
+<TabItem value="readcode" label="From Code">
+
+```
+const axios = require("axios")
+
+const axiosInstance = axios.create({
+	baseURL: "https://api.starton.com",
+	headers: {
+		"x-api-key": "PUT HERE YOUR API KEY",
+	},
+})
+
+axiosInstance.post(
+	"/v3/smart-contract/polygon-mumbai/0xF11e9d036d14B46c72BcCc77197A4F1579BCd61b/call",
+	{
+		functionName: "mint(address,string)",
+		params: [
+			"0xD5bD368dE4e69A839eB6E28d9a227113f034ac06",
+			"bafkreihhq7t3ioiugs7qeqplwodlwa6sjhlnncns2zqxc4uf2pwos33sxy"
+		],
+		signerWallet: "0x5CCa311b2DFe4EDeA94a4aF086cA9954d3c06d23",
+		speed: "average"
+	}
+).then((response) => {
+	console.log(response.data)
+})
+```
+
+</TabItem>
+<TabItem value="readapp" label="From Webapp">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/soNu8KojZf4?si=cN781oadkpogYEc_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+1. In **Smart Contract**, select a **Smart Contract**.
+1. Select a write **function**.
+1. Enter the **parameters**.
+1. Click **Run**.
+
+</TabItem>
+</Tabs>
+</TabItem>
+</Tabs>
+
+> Note that the developer mode is unavailable for third-party wallets
+
+## Smart contract functions
+
+Read [Smart Contracts references](/docs/smart-contract/parameters-and-functions) for more information on how to call smart contract functions.
+
+:::info
+When interacting with smart contracts on Dashboard, you can use the search feature to browse your read, write and payable functions.
+:::

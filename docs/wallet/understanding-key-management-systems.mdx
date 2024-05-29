@@ -1,0 +1,37 @@
+---
+title: Connect a Key Management System
+displayed-sidebar: tutorialSidebar
+description: To interact with blockchains, you need to sign transactions with a wallet to prove ownership over the associated address. Learn about key management systems
+keywords: [Key Management Systems, Starton, Wallets, Deploy, Interact, Transaction]
+---
+import Heading from "@theme/Heading"
+import Link from "@docusaurus/Link"
+import { CardTitle } from "@site/src/components/commons/CardTitle"
+import { Starton } from "@starton/react-ui-iconography"
+
+# Connect a key management system
+
+To securely sign transactions without revealing private keys, you need a backend wallet. Starton uses Key Management Systems (KMS). This cloud-based ledger prevents permanent wallet corruption, even if hacked. Forget having to stock your keys in a .env file, use keys directly into your call.
+
+<CardTitle icon={<Starton fill="primary" />} href="/tutorials/connecting-aws-kms">
+Connecting your AWS Key Management System
+</CardTitle>
+<br />
+<CardTitle icon={<Starton fill="primary" />} href="https://form.typeform.com/to/LVwVufqI?typeform-source=www.starton.com">
+Connecting your Hashicorp Vault
+</CardTitle>
+<br />
+<CardTitle icon={<Starton fill="primary" />} href="https://form.typeform.com/to/LVwVufqI?typeform-source=www.starton.com">
+Need to connect your own KMS? Contact us for more options.
+</CardTitle>
+<br />
+
+:::info
+**Starton** provides test wallets hosted on our **Key Management System**, but when going in production, to maintain control over your wallets, you should use your own KMS. To create a wallet on Starton KMS use the **/kms/wallet** endpoint and enter for **"kmsId"** the value  **"kms_33333333333333333333333333333333”**.
+:::
+
+
+**Related topics**
+
+-   More on [Smart Contracts](/docs/smart-contract/understanding-smart-contracts)
+-   More on [Developer mode](/docs/developer/discovering-coding-interface)

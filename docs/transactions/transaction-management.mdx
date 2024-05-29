@@ -1,0 +1,77 @@
+---
+title: Smart contract management
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+---
+
+import Heading from "@theme/Heading"
+import Link from "@docusaurus/Link"
+import { CardTitle } from "@site/src/components/commons/CardTitle"
+import { Starton } from "@starton/react-ui-iconography"
+import {CompareArrowsOutlined, RocketLaunchOutlined, UploadOutlined} from "@mui/icons-material"
+
+# Smart contract management
+
+The Smart contract management is an abstraction on top of our [Transaction Manager](/docs/transactions/transaction-management) and it allows you to build and **automate** your smart contract transactions easily, without struggling with [ABI](/guides/ABI) and parameters encoding. With it you can:
+
+<DocsSectionLinks
+links={[
+{
+link: '/docs/transactions/state-and-status',
+title: 'Transaction states and status',
+icon: <RocketLaunchOutlined />,
+},
+{
+link: '/docs/transactions/understanding-gas',
+title: 'Gas management',
+icon: <UploadOutlined />
+},
+{
+link: '/docs/transactions/understanding-nonce',
+title: 'Nonces',
+icon: <CompareArrowsOutlined />,
+},
+]}
+video={{
+src: 'https://www.youtube.com/embed/51zIBIPiTW8?si=totHNLCl7afJO6nq',
+}}
+/>
+
+<DocsGettingStarted
+links={[
+{
+href: '/docs/transactions/creating-a-transaction',
+overline: 'Tutorial',
+title: 'Create a transaction',
+},
+{
+href: '/tutorials/metatransaction',
+overline: 'Tutorial',
+title: 'Set a transaction management strategy',
+},
+{
+href: '/tutorials/metatransaction',
+overline: 'Tutorial',
+title: 'CREATE A METATRANSACTION',
+},
+]}
+endpoints={[
+{
+link: '/api-reference#tag/transaction-manager/[post]/v3/transaction',
+},
+{
+link: '/api-reference#tag/transaction-manager/[get]/v3/transaction',
+},
+{
+link: '/api-reference#tag/transaction-manager/[patch]/v3/setting/relayer/{network}',
+},
+{
+link: '/api-reference#tag/transaction-manager/[get]/v3/kms/wallet/{address}/{network}/nonce/available',
+},
+]}
+/>
+
+<DocsSectionGuides
+guidesIds={['abi', 'fungible-vs-non-fungible-tokens']}
+/>

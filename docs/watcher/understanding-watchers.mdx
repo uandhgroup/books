@@ -1,0 +1,80 @@
+---
+title:  Blockchain Network Monitor
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+---
+
+import Heading from "@theme/Heading"
+import Link from "@docusaurus/Link"
+import { CardTitle } from "@site/src/components/commons/CardTitle"
+import { Starton } from "@starton/react-ui-iconography"
+import {CompareArrowsOutlined, RocketLaunchOutlined, UploadOutlined} from "@mui/icons-material"
+
+
+# Blockchain Network Monitor
+
+**Monitor** inspects every block on all supported blockchains to continuously check for activity.
+When the conditions of a watcher are met, the watcher triggers and create a webhook and send to the server url provided during the watcher's creation.
+
+**Monitor** takes care of handling forks and block confirmations, ensuring data integrity and consistency in your blockchain operations. Additionally, **Monitor** is built to address scalability issues, providing robust solutions that adapt to varying network demands.
+
+<DocsSectionLinks
+links={[
+{
+link: '/docs/watcher/creating-a-watcher',
+title: 'Watchers',
+icon: <RocketLaunchOutlined />,
+},
+{
+link: '/docs/watcher/webhooks',
+title: 'Webhooks',
+icon: <UploadOutlined />
+},
+{
+link: '/docs/watcher/confirmation-blocks',
+title: 'Confirmation blocks',
+icon: <CompareArrowsOutlined />,
+},
+]}
+video={{
+src: 'https://www.youtube.com/embed/-PEn8n9pqss?si=4pMZSfUYB8NZ280T',
+}}
+/>
+
+<DocsGettingStarted
+links={[
+{
+href: '/tutorials/monitoring-blockchain-activity',
+overline: 'Tutorial',
+title: 'Monitoring blockchain activity',
+},
+{
+href: '/tutorials/track-wallet-activity',
+overline: 'Tutorial',
+title: 'Notifying users when they receive an NFT',
+},
+{
+href: '/tutorials/create-ngrok-integrated-watcher',
+overline: 'Tutorial',
+title: 'Creating a watcher with ngrok-integrated webhooks',
+},
+]}
+endpoints={[
+{
+link: '/api-reference#tag/monitor/[post]/v3/watcher',
+},
+{
+link: '/api-reference#tag/monitor/[get]/v3/watcher/{id}/event',
+},
+{
+link: '/api-reference#tag/monitor/[get]/v3/watcher/{id}/event',
+},
+{
+link: '/api-reference#tag/monitor/[get]/v3/watcher/{id}/event/{eventId}',
+},
+]}
+/>
+
+
+

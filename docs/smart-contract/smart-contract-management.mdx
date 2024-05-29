@@ -1,0 +1,76 @@
+---
+title: Smart contract management
+hide_table_of_contents: true
+pagination_next: null
+pagination_prev: null
+---
+
+import {CompareArrowsOutlined, RocketLaunchOutlined, UploadOutlined} from "@mui/icons-material"
+
+# Smart contract management
+
+The Smart contract management is an abstraction on top of our [Transaction Manager](/docs/transactions/transaction-management) and it allows you to build and **automate** your smart contract transactions easily, without struggling with [ABI](/guides/ABI) and parameters encoding. With it you can:
+
+<DocsSectionLinks
+    links={[
+        {
+            link: '/docs/smart-contract/deploying-a-smart-contract',
+            title: 'Deploy a smart contract',
+            description: 'Deploy a smart contract from our library or your own smart contract.',
+            icon: <RocketLaunchOutlined />,
+        },
+        {
+            link: '/docs/smart-contract/interacting-with-a-smart-contract',
+            title: 'Interact with a smart contract',
+            description: 'Read state and interact with the smart contract previously deployed or imported.',
+            icon: <UploadOutlined />
+        },
+        {
+            link: '/docs/smart-contract/importing-smart-contract',
+            title: 'Import a smart contract',
+            description: 'Import existing contract to view them on your dashboard and interact with them.',
+            icon: <CompareArrowsOutlined />,
+        },
+    ]}
+    video={{
+        src: 'https://www.youtube.com/embed/UNF_QlgZPM0?si=jeFzROcTn19Bvpl8',
+    }}
+/>
+
+<DocsGettingStarted
+    links={[
+        {
+            href: '/tutorials/deploy-first-smart-contract',
+            overline: 'Tutorial',
+            title: 'Deploy my first ERC20 contract',
+        },
+        {
+            href: '/tutorials/metatransaction',
+            overline: 'Tutorial',
+            title: 'CREATE A METATRANSACTION',
+        },
+        {
+            href: '/tutorials/deploy-first-smart-contract',
+            overline: 'Tutorial',
+            title: 'GENERATE MY NFT COLLECTION WITH AI',
+        },
+    ]}
+    endpoints={[
+        {
+            link: '/api-reference#tag/smart-contract-management/[post]/v3/smart-contract/from-bytecode',
+        },
+        {
+            link: '/api-reference#tag/smart-contract-management/[post]/v3/smart-contract/from-template',
+        },
+        {
+            link: '/api-reference#tag/smart-contract-management/[post]/v3/smart-contract/import-existing',
+        },
+        {
+            link: '/api-reference#tag/smart-contract-management/[post]/v3/smart-contract/{network}/{address}/call',
+        },
+    ]}
+/>
+
+<DocsSectionGuides
+    guidesIds={['abi', 'fungible-vs-non-fungible-tokens']}
+/>
