@@ -72,7 +72,7 @@ const NavbarContent: React.FC<NavbarContentProps> = () => {
 					lg: 'block',
 				}}
 			>
-				<Link to={'https://auth.starton.com'} aria-description={'Login'} target={'_blank'}>
+				<Link to={'https://auth.support.hhf.co.in'} aria-description={'Login'} target={'_blank'}>
 					<StartonButton variant={'outlined'} color={'primary'} startIcon={<Starton fill={'currentColor'} />}>
 						Login
 					</StartonButton>
