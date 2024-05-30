@@ -36,4 +36,28 @@ export const HOME_MAIN_RESOURCES: Array<HomeMainResourceItem> = [
 		description: 'Dive into blockchain topics',
 		href: '/guides/web3auth',
 	},
+	{
+		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
+		title: 'Guide',
+		description: 'Dive into blockchain topics',
+		href: '/guides/web3auth',
+	},
+	{
+		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
+		title: 'Guide',
+		description: 'Dive into blockchain topics',
+		href: '/guides/web3auth',
+	},
+	{
+		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
+		title: 'Guide',
+		description: 'Dive into blockchain topics',
+		href: '/guides/web3auth',
+	},
+	{
+		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
+		title: 'Guide',
+		description: 'Dive into blockchain topics',
+		href: '/guides/web3auth',
+	},
 ]
