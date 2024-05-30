@@ -105,11 +105,11 @@ export const Snippet: React.FC<SnippetProps> = () => {
 	return (
 		<SnippetStyled>
 			<SnippetTypography>
-				<SnippetTypography color="primary.main">const </SnippetTypography>
-				<SnippetTypography color="text.primary">documentation = </SnippetTypography>
-				<SnippetTypography color="warning.main">state("</SnippetTypography>
+				<SnippetTypography color="primary.main">We love </SnippetTypography>
+				<SnippetTypography color="text.primary">tech </SnippetTypography>
+				<SnippetTypography color="warning.main">stacks( "</SnippetTypography>
 				<SnippetTypography color="text.primary">{lines[currentIndex]}</SnippetTypography>
-				<SnippetTypography color="warning.main">")</SnippetTypography>
+				<SnippetTypography color="warning.main">" )</SnippetTypography>
 			</SnippetTypography>
 		</SnippetStyled>
 	)
