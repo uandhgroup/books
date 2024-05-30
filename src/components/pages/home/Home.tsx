@@ -27,13 +27,13 @@ export interface HomeProps {
 */
 function Home(props: HomeProps) {
 	return (
-		<Layout title="Starton Hub | Documentation, Guides, Tutorials">
+		<Layout title="A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools, and more.">
 			{/* HERO BANNER */}
 			<PageHeader
 				subTitle={'All notes for Digital Support Services'}
 				title={
 					<React.Fragment>
-						Starton <span>Documentation</span>
+						HHF TechTips<span>Books</span>
 					</React.Fragment>
 				}
 			/>
