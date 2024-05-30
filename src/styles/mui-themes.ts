@@ -40,7 +40,7 @@ let theme: Theme = createTheme({
 			disabled: '#667C92',
 		},
 		background: {
-			default: '#1A1F25',
+			default: '#042842',
 			paper: '#161B1F',
 			paper2: '#0E1114',
 		},

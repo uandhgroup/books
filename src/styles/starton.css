@@ -159,7 +159,7 @@
 */
 
 body {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 
 p,
@@ -216,11 +216,11 @@ svg {
 }
 
 footer {
-	background-color: #1A1F25;
+	background-color: #042842;
 	border-top: 0.5px solid #3e4e5c;
 }
 .footer--dark {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 
 /*
@@ -241,7 +241,7 @@ footer {
 
 .hero {
 	margin: auto;
-	background-color: #1A1F25;
+	background-color: #042842;
 	color: white;
 	padding: 2rem;
 }
@@ -281,7 +281,7 @@ footer {
 	width: 235px;
 	height: 56px;
 	/* palette/divider */
-	background-color: #1A1F25;
+	background-color: #042842;
 	border: 1px solid #3e4e5c;
 	border-radius: 8px;
 	text-transform: uppercase;
@@ -324,21 +324,21 @@ header.hero {
 }
 
 .heroBanner_qdFl {
-	background-color: #1A1F25;
+	background-color: #042842;
 	color: #01e6cd;
 }
 
 .hero--primary {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 .main-wrapper {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 .main {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 .contents {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 .theme-doc-sidebar-container {
 	background-color: #0e1114;
@@ -350,7 +350,7 @@ header.hero {
 /*.row.{background-color: #1F272E;}*/
 
 .docMainContainer_gTbr {
-	background-color: #1A1F25;
+	background-color: #042842;
 }
 
 .link {
@@ -656,7 +656,7 @@ html[data-theme="dark"] .theme-doc-toc-desktop .table-of-contents .table-of-cont
 		padding: 80px 16px 24px 16px;
 		margin: 30px;
 		text-decoration: none;
-		background-color: #1A1F25;
+		background-color: #042842;
 		word-wrap: break-word;
 		flex: 1;
 	}
@@ -941,7 +941,7 @@ nav.navbar .navbar__link--active::before {
 }
 
 .navbar__button:hover {
-	background: #1A1F25;
+	background: #042842;
 	color: #01FEE2;
 	border-color: #01FEE2;
 }
@@ -987,7 +987,7 @@ nav.menu .menu__list .theme-doc-sidebar-item-category-level-1.menu__list-item > 
 }
 
 .navbar-sidebar {
-	background-color: #1A1F25 !important;
+	background-color: #042842 !important;
 	box-shadow: none !important;
 }
 
@@ -1066,7 +1066,7 @@ html[data-theme="dark"] .DocSearch-Button {
 */
 
 .DocSearch-Modal {
-	background: #1A1F25 !important;
+	background: #042842 !important;
 	border-radius: 0 !important;
 	box-shadow: none !important;
 	font-family: "Fira Code", "Inter", Arial, sans-serif;
@@ -1079,7 +1079,7 @@ html[data-theme="dark"] .DocSearch-Button {
 }
 
 .DocSearch-Hit-source {
-	background: #1A1F25 !important;
+	background: #042842 !important;
 	color: #F1F3F5 !important;
 }
 
