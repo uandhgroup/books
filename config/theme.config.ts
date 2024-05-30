@@ -42,13 +42,13 @@ export const themeConfig: ThemeConfig = {
 			autoCollapseCategories: true,
 		},
 	},
-	copyright: `Copyright © ${new Date().getFullYear()} Starton Documentation, Inc. Built with Docusaurus.`,
+	copyright: `Copyright © ${new Date().getFullYear()} Coded with ❤️ by HHF Tech & the community.`,
 
 	// Navbar
 	// ----------------------------------------------------------------------------
 	navbar: {
 		logo: {
-			alt: 'Starton Logo',
+			alt: 'HHF TechTips Logo',
 			src: 'img/starton.svg',
 		},
 		items: [

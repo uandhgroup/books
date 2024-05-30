@@ -14,13 +14,13 @@ import { LibraryOutlined } from '@site/src/components/icons'
 export const HOME_MAIN_RESOURCES: Array<HomeMainResourceItem> = [
 	{
 		icon: <MenuBookIcon sx={{ fontSize: 24 }} />,
-		title: 'Docs',
+		title: 'Containers/Orchestration',
 		description: 'Discover Starton features',
 		href: '/docs/overview',
 	},
 	{
 		icon: <ApiIcon sx={{ fontSize: 24 }} />,
-		title: 'API References',
+		title: 'Networks',
 		description: 'Test all of our endpoints',
 		href: '/api-reference',
 	},
@@ -38,25 +38,25 @@ export const HOME_MAIN_RESOURCES: Array<HomeMainResourceItem> = [
 	},
 	{
 		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
-		title: 'Guide',
+		title: 'Manuals',
 		description: 'Dive into blockchain topics',
 		href: '/guides/web3auth',
 	},
 	{
 		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
-		title: 'Guide',
+		title: 'Inspiring Lists',
 		description: 'Dive into blockchain topics',
 		href: '/guides/web3auth',
 	},
 	{
 		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
-		title: 'Guide',
+		title: 'Cheat Sheets',
 		description: 'Dive into blockchain topics',
 		href: '/guides/web3auth',
 	},
 	{
 		icon: <LibraryOutlined sx={{ fontSize: 24 }} />,
-		title: 'Guide',
+		title: 'Systems/Services',
 		description: 'Dive into blockchain topics',
 		href: '/guides/web3auth',
 	},
