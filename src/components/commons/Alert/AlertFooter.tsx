@@ -1,5 +1,5 @@
 /*
-| Developed by Starton
+| Developed by HHF TechTips
 | Filename : StartonAlertFooter
 | Author : Calixte DE TOURRIS (calixte@starton.io)
 */

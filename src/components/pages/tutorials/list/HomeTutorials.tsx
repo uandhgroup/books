@@ -83,10 +83,10 @@ const HomeTutorials: React.FC<HomeTutorialsProps> = (props) => {
 				hideSnippet
 				title={
 					<React.Fragment>
-						Starton <span>Tutorials</span>
+						TechStack <span>Tutorials</span>
 					</React.Fragment>
 				}
-				description={'Learn how to build web3 projects using our API'}
+				description={'Learn how to build tech stack using our tutorials'}
 			/>
 			<Box paddingBottom={11}>
 				<HomeTutorialsFilter

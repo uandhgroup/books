@@ -1,5 +1,5 @@
 /*
-| Developed by Starton
+| Developed by HHF TechTips
 | Filename : theme.config.js
 */
 
@@ -91,7 +91,7 @@ export const themeConfig: ThemeConfig = {
 				'aria-label': 'Release notes',
 			},
 			{
-				href: 'https://github.com/starton-io',
+				href: 'https://github.com/hhf-tech-tips',
 				// label: 'GitHub',
 				'aria-label': 'GitHub',
 				className: 'navbar__icon navbar__github',
@@ -141,7 +141,7 @@ export const themeConfig: ThemeConfig = {
 					},
 					{
 						label: 'Twitter',
-						href: 'https://twitter.com/starton_io',
+						href: 'https://twitter.com/hhf-tech-tips',
 					},
 				],
 			},
@@ -150,7 +150,7 @@ export const themeConfig: ThemeConfig = {
 				items: [
 					{
 						label: 'Blog',
-						href: 'https://blog.starton.com/',
+						href: 'https://techtips.hhf.co.in/',
 					},
 					{
 						label: 'GitHub',
